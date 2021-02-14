@@ -35,6 +35,6 @@
 [btiin]: https://github.com/pbl0/BetterIndexRR/raw/main/BetterIndex.user.js
 [btird]: https://github.com/pbl0/BetterIndexRR/blob/main/README.md
 
-[bluin]: https://raw.githubusercontent.com/pbl0/blur-overlay-rr/master/blur-overlay-rr.js
+[bluin]: https://raw.githubusercontent.com/pbl0/blur-overlay-rr/master/blur-overlay-rr.user.js
 [blurd]: https://github.com/pbl0/blur-overlay-rr/blob/master/README.md
 
