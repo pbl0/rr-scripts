@@ -22,9 +22,9 @@
 
 [contact]: https://t.me/pablo_rr
 
-[pablo]: https://https://github.com/pbl0
+[pablo]: https://github.com/pbl0
 [rgpin]: https://github.com/pbl0/refill_gold_rr/raw/master/RefillGoldPC.user.js
-[rgprd]: https://github.com/pbl0/refill_gold_rr/raw/master/README.md
+[rgprd]: https://github.com/pbl0/refill_gold_rr/blob/master/README.md
 
 [rgmin]: https://github.com/pbl0/refill_gold_rr/raw/master/RefillGold.user.js
 
@@ -33,8 +33,8 @@
 [avlrd]: https://
 
 [btiin]: https://github.com/pbl0/BetterIndexRR/raw/main/BetterIndex.user.js
-[btird]: https://github.com/pbl0/BetterIndexRR/raw/main/README.md
+[btird]: https://github.com/pbl0/BetterIndexRR/blob/main/README.md
 
 [bluin]: https://raw.githubusercontent.com/pbl0/blur-overlay-rr/master/blur-overlay-rr.js
-[blurd]: https://raw.githubusercontent.com/pbl0/blur-overlay-rr/master/README.md
+[blurd]: https://github.com/pbl0/blur-overlay-rr/blob/master/README.md
 
