@@ -1,13 +1,16 @@
 
 ## RR Mods Collection
 
+[![donateImg]](https://www.paypal.com/donate?hosted_button_id=UGXMR9D6PE56W)
+
 Read [here][guide] how to install and use script mods.
+
 
 |Script           |Author            |URL                                  |Platform |
 |-----------------|------------------|-------------------------------------|---------|
 | RefillGoldPC    | [pablo][pablo]   | [Install][rgpin] / [Readme][rgprd]  | PC      |
 | RefillGold      | [pablo][pablo]   | [Install][rgmin] / [Readme][rgprd]  | Mobile  |
-| AutoVoteLikrr   | [pablo][pablo]   | comming soon                        | Mobile  |
+| AutoVoteLikrr   | [pablo][pablo]   | comming soon                        | PC      |
 | BetterIndex     | [pablo][pablo]   | [Install][btiin] / [Readme][btird]  | Both    |
 | AutoAcademy     | [pablo][pablo]   | comming soon                        | Mobile  |
 | AutoDepartaments| [pablo][pablo]   | comming soon                        | Mobile  |
@@ -17,6 +20,10 @@ Read [here][guide] how to install and use script mods.
 > Please [contact][contact] me if you want to add your own scripts to the list.
 
 
+
+
+
+[donateImg]: https://img.shields.io/badge/Donate-PayPal-green.svg
 
 [guide]: https://github.com/pbl0/rr-scripts/blob/main/guide.md
 

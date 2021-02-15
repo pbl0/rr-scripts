@@ -22,7 +22,7 @@ This guide will focus mostly on [ViolentMonkey][vm] as it has some extra configu
     - > **Important:** The usage of user scripts in smartphones is experimental and isn't supported by most browsers. Until now, neither Chrome or Firefox allow to install any user script manager.
     - There are a few broswers that support extensions such as [Kiwi Browser][kiwi], Yandex or Ungoogled Chromium Android. Nowadays Kiwi seems to be the most polished and stable solution.
     - On mobile the only user script manager extension that seems to work properly is [ViolentMonkey][vm].
-    - Antoher posible way to use user scripts in mobile is using [Adguard app][adguard] (**paid feature**), which is meant to block ads system-wide but also has a script manager built-in. This works with any browser as long as the app is running in the background.
+    - Another posible way to use user scripts in mobile is using [Adguard app][adguard] (**paid feature**), which is meant to block ads system-wide but also has a script manager built-in. This works with any browser as long as the app is running in the background.
 
 
 - **Both:** Now your browser is ready to install some scripts. You can pick one from my [collection][scripts]. In order to install a script you can simply open the script url in your browser and your user script manager will do the rest.
@@ -39,7 +39,7 @@ Adguard and TamperMonkey don't seem to allow changing the values manually, so yo
 - Refresh rivalregions page ( press F5 )
 - Close tab/browser
 - Re-install script
-- Open the console to see any errors ( press F12 )
+- Open the console to see any errors ( press F12 on PC )
 - Disable other user scripts.
 - You need to refresh whenever you disable/enable scripts
 - Contact script author
