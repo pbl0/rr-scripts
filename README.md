@@ -1,7 +1,7 @@
 
 ## RR Mods Collection
 
-> Read How to install and use script mods [here][guide].
+Read [here][guide] how to install and use script mods.
 
 |Script           |Author            |URL                                  |Platform |
 |-----------------|------------------|-------------------------------------|---------|
