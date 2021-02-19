@@ -8,7 +8,7 @@ Read [here][guide] how to install and use script mods.
 
 |Script           |Author            |URL                                  |Platform |
 |-----------------|------------------|-------------------------------------|---------|
-| RefillGoldPC    | [pablo][pablo]   | [Install][rgpin] / [Readme][rgprd]  | PC      |
+| RefillGoldPC (beta)   | [pablo][pablo]   | [Install][rgpin] / [Readme][rgprd]  | PC      |
 | RefillGold      | [pablo][pablo]   | [Install][rgmin] / [Readme][rgprd]  | Mobile  |
 | likrr-autovote  | [pablo][pablo]   | [Install][likrr] / [Readme][likrm]  | PC      |
 | BetterIndex     | [pablo][pablo]   | [Install][btiin] / [Readme][btird]  | Both    |
