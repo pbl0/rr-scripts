@@ -10,7 +10,7 @@ Read [here][guide] how to install and use script mods.
 |-----------------|------------------|-------------------------------------|---------|
 | RefillGoldPC    | [pablo][pablo]   | [Install][rgpin] / [Readme][rgprd]  | PC      |
 | RefillGold      | [pablo][pablo]   | [Install][rgmin] / [Readme][rgprd]  | Mobile  |
-| AutoVoteLikrr   | [pablo][pablo]   | comming soon                        | PC      |
+| likrr-autovote  | [pablo][pablo]   | [Install][likrr] / [Readme][likrm]  | PC      |
 | BetterIndex     | [pablo][pablo]   | [Install][btiin] / [Readme][btird]  | Both    |
 | AutoAcademy     | [pablo][pablo]   | comming soon                        | Mobile  |
 | AutoDepartaments| [pablo][pablo]   | comming soon                        | Mobile  |
@@ -36,8 +36,8 @@ Read [here][guide] how to install and use script mods.
 [rgmin]: https://github.com/pbl0/refill_gold_rr/raw/master/RefillGold.user.js
 
 
-[avlin]: https://
-[avlrd]: https://
+[likrr]: https://github.com/pbl0/likrr-autovote/raw/main/likrr-autovote.user.js
+[likrm]: https://github.com/pbl0/likrr-autovote/blob/main/README.md
 
 [btiin]: https://github.com/pbl0/BetterIndexRR/raw/main/BetterIndex.user.js
 [btird]: https://github.com/pbl0/BetterIndexRR/blob/main/README.md
