@@ -12,6 +12,7 @@ Read [here][guide] how to install and use script mods.
 | RefillGold      | [pablo][pablo]   | [Install][rgmin] / [Readme][rgprd]  | Mobile  |
 | likrr-autovote  | [pablo][pablo]   | [Install][likrr] / [Readme][likrm]  | PC      |
 | BetterIndex     | [pablo][pablo]   | [Install][btiin] / [Readme][btird]  | Both    |
+| auto-perk       | [pablo][pablo]   | [Install][apein] / [Readme][aperm]  | PC      |
 | AutoAcademy     | [pablo][pablo]   | comming soon                        | Mobile  |
 | AutoDepartaments| [pablo][pablo]   | comming soon                        | Mobile  |
 | PayParty        | [pablo][pablo]   | comming soon                        | PC      |
@@ -45,3 +46,5 @@ Read [here][guide] how to install and use script mods.
 [bluin]: https://raw.githubusercontent.com/pbl0/blur-overlay-rr/master/blur-overlay-rr.user.js
 [blurd]: https://github.com/pbl0/blur-overlay-rr/blob/master/README.md
 
+[apein]: https://github.com/pbl0/auto-perk/raw/main/auto-perk.user.js
+[aperm]: https://github.com/pbl0/auto-perk/blob/main/README.md
