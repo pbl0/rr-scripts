@@ -1,14 +1,14 @@
 
-## RR Mods Collection
+# RR Mods Collection
+Consider donating if you like my work
 
 [![donateImg]](https://www.paypal.com/donate?hosted_button_id=UGXMR9D6PE56W)
 
-Read [here][guide] how to install and use script mods.
+### Read [how to install and use user scripts][guide] for RR.
 
 
 |Script           |Author            |URL                                  |Platform |
 |-----------------|------------------|-------------------------------------|---------|
-| RefillGoldPC (beta)   | [pablo][pablo]   | [Install][rgpin] / [Readme][rgprd]  | PC      |
 | RefillGold      | [pablo][pablo]   | [Install][rgmin] / [Readme][rgprd]  | Mobile  |
 | likrr-autovote  | [pablo][pablo]   | [Install][likrr] / [Readme][likrm]  | PC      |
 | BetterIndex     | [pablo][pablo]   | [Install][btiin] / [Readme][btird]  | Both    |
@@ -17,6 +17,7 @@ Read [here][guide] how to install and use script mods.
 | AutoDepartaments| [pablo][pablo]   | comming soon                        | Mobile  |
 | PayParty        | [pablo][pablo]   | comming soon                        | PC      |
 | BlurOverlay     | [pablo][pablo]   | [Install][bluin] / [Readme][blurd]  | PC      |
+| RefillGoldPC (WIP)   | [pablo][pablo]   | [Install][rgpin] / [Readme][rgprd]  | PC      |
 
 > Please [contact][contact] me if you want to add your own scripts to the list.
 
