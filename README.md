@@ -13,6 +13,7 @@ Consider donating if you like my work
 | likrr-autovote  | [pablo][pablo]   | [Install][likrr] / [Readme][likrm]  | PC      |
 | BetterIndex     | [pablo][pablo]   | [Install][btiin] / [Readme][btird]  | Both    |
 | auto-perk       | [pablo][pablo]   | [Install][apein] / [Readme][aperm]  | PC      |
+| power-plant     | [pablo][pablo]   | [Install][pwrin] / [Readme][pwrrm]  | PC      |
 | AutoAcademy     | [pablo][pablo]   | comming soon                        | Mobile  |
 | AutoDepartaments| [pablo][pablo]   | comming soon                        | Mobile  |
 | PayParty        | [pablo][pablo]   | comming soon                        | PC      |
@@ -49,3 +50,6 @@ Consider donating if you like my work
 
 [apein]: https://github.com/pbl0/auto-perk/raw/main/auto-perk.user.js
 [aperm]: https://github.com/pbl0/auto-perk/blob/main/README.md
+
+[pwrin]: https://github.com/pbl0/power-plant/raw/master/power-plant.user.js
+[pwrrm]: https://github.com/pbl0/power-plant/blob/master/README.md
