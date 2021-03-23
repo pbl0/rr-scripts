@@ -6,6 +6,8 @@ Consider donating if you like my work
 
 ### Read [how to install and use user scripts][guide] for RR.
 
+#### [Join Telegram channel for updates](https://t.me/rr_tools)
+
 
 |Script           |Author            |URL                                  |Platform |
 |-----------------|------------------|-------------------------------------|---------|
