@@ -70,7 +70,7 @@ This other type of mod only modifies the CSS styles of the page, which can be us
 
 [adguard]: https://adguard.com/es/adguard-android/overview.html
 
-[scripts]: https://github.com/pbl0/rr-scripts/blob/main/README.md
+[scripts]: https://rr-tools.eu/mods
 
 [gear]: https://apps.apple.com/us/app/gear-browser/id1458962238
 
