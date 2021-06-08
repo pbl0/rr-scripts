@@ -11,21 +11,21 @@ User scripts put you in control of your Rival Regions experience. They automatic
 
 ### Installation and usage
 
-To use user scripts you need to first install an user script manager. Some of the most popular ones are TamperMonkey, GreaseMonkey and ViolentMonkey
+To use user scripts you need to first install an user script manager extension. Some of the most popular ones are ViolentMonkey, TamperMonkey, GreaseMonkey.
 
-This guide will focus mostly on [ViolentMonkey][vm] as it has some extra configuration features and works both in PC and Mobile.
+This guide will focus mostly on [ViolentMonkey][vm] as it has some extra configuration features and it also works on PC and Mobile.
 
 - **Windows/Linux/MacOS:**
     - Install an user script manager extension, [ViolentMonkey][vm] is my recomendation but TamperMonkey/GreaseMonkey will also work.
 
 - **Android:**
     - > **Important:** The usage of user scripts in smart-phones is experimental and isn't supported by most browsers. Until now, neither Chrome or Firefox allow to install any user script manager.
-    - There are a few browsers that support extensions such as [Kiwi Browser][kiwi], Yandex or Ungoogled Chromium Android. Nowadays Kiwi seems to be the most polished and stable solution.
+    - There are a few browsers that support extensions such as [Kiwi Browser][kiwi] (chrome based).
     - On mobile the only user script manager extension that seems to work properly is [ViolentMonkey][vm].
-    - Another posible way to use user scripts in mobile is using [Adguard app][adguard] (**paid feature**), which is meant to block ads system-wide but also has a script manager built-in. This works with any browser as long as the app is running in the background.
+    - An alternative way to use user scripts in mobile is using [Adguard app][adguard] (**paid feature**), which is meant to block ads system-wide but also has a built-in script manager. This works on any browser as long as the app is running in the background.
 
 
-- **Both:** Now your browser is ready to install some scripts. You can pick one from my [collection][scripts]. In order to install a script you can simply open the script url in your browser and your user script manager will do the rest.
+- **Both:** Now that your browser is ready to install some scripts, you can pick one from my [collection][scripts]. In order to install a script you can simply open the script url in your browser and your user script manager will do the rest.
 
 - Once the script is installed just visit the game (or the specific page it affects). It should automatically do its thing.
 
@@ -55,9 +55,9 @@ This other type of mod only modifies the CSS styles of the page, which can be us
 
 ### Further information
 
-**Mobile users:** Mobile browsers seem to pause the execution of JavaScript when the browser is in the background to avoid battery drainage. So fully automated bots cannot be accomplished unless the page is in the foreground and the device has the screen unlocked, but this was barely tested by me.
+**Mobile users:** Mobile browsers seem to pause the execution of JavaScript when the browser is in the background to avoid battery drainage. So fully automated bots cannot be accomplished unless the page is in the foreground and the device has the screen unlocked.
 
-**iOS Users:** The only solution I know is using [Gear Browser][gear] which seems to support user scripts, although this feature is paid and haven't been tested at all. Please notify if you been able to test this or any other solution to update this guide.
+**iOS Users:** The only solution I know is using [Gear Browser][gear], although this feature is paid and I haven't been tested it. Please notify if you been able to test this or any other solution to update this guide.
 
 
 [rr]: https://rivalregions.com
