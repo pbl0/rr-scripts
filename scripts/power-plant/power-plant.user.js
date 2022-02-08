@@ -5,7 +5,7 @@
 // @author      Pablo
 // @description Small userscript that adds blur effect to RivalRegions game overlay in PC version
 // @version     0.0.1
-// @downloadURL https://github.com/pbl0/power-plant/raw/master/power-plant.user.js
+// @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/power-plant/power-plant.user.js
 // ==/UserScript==
 
 $(document).ready(function () {

@@ -18,4 +18,4 @@ Once installed you should see the surplus(green) or deficit(red):
 
 [scripts]: https://rr-tools.eu/mods
 
-[raw]: https://github.com/pbl0/auto-perk/raw/main/auto-perk.user.js
+[raw]: https://github.com/pbl0/rr-scripts/raw/main/scripts/power-plant/power-plant.user.js

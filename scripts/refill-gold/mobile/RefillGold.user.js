@@ -4,16 +4,16 @@
 // @match       *://m.rivalregions.com/
 // @grant       GM_getValue
 // @grant       GM_setValue
-// @version     0.0.8
+// @version     0.0.9
 // @author      Pablo
 // @description just refills da gold
-// @downloadURL https://github.com/pbl0/refill_gold_rr/raw/master/RefillGold.user.js
+// @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/refill-gold/mobile/RefillGold.user.js
 // @require https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
 // ==/UserScript==
 
 /**
- * v0.0.7 -> Fix on request
  * v0.0.8 -> small fix
+ * v0.0.7 -> Fix on request
  * */
 
 // State ID of your state:

@@ -25,6 +25,6 @@ Select perk and type of payment.
 
 [scripts]: https://rr-tools.eu/mods
 
-[raw]: https://github.com/pbl0/auto-perk/raw/main/auto-perk.user.js
+[raw]: https://github.com/pbl0/rr-scripts/raw/main/scripts/auto-perk/auto-perk.user.js
 
-[rawlegacy]: https://github.com/pbl0/auto-perk/raw/main/auto-perk-legacy.user.js
+[rawlegacy]: https://github.com/pbl0/rr-scripts/raw/main/scripts/auto-perk/auto-perk-legacy.user.js

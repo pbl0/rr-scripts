@@ -40,9 +40,11 @@ Adguard and TamperMonkey don't seem to allow changing the values manually, so yo
 - Close tab/browser
 - Re-install script
 - Open the console to see any errors ( press F12 on PC )
-- Disable other user scripts.
+- Disable other scripts.
 - You need to refresh whenever you disable/enable scripts
 - Contact script author
+
+> **Reminder:** Most scripts will only work with the english language setting.
 
 ### Updating a script
 
@@ -57,7 +59,7 @@ This other type of mod only modifies the CSS styles of the page, which can be us
 
 **Mobile users:** Mobile browsers seem to pause the execution of JavaScript when the browser is in the background to avoid battery drainage. So fully automated bots cannot be accomplished unless the page is in the foreground and the device has the screen unlocked.
 
-**iOS Users:** The only solution I know is using [Gear Browser][gear], although this feature is paid and I haven't tested it. Please notify if you been able to test this or any other solution to update this guide.
+**iOS Users:** The only solution I found would be using [Gear Browser][gear], although this feature seems to be paid-only and I haven't tested it. Please notify if you been able to test this or any other solution to update this guide.
 
 
 [rr]: https://rivalregions.com

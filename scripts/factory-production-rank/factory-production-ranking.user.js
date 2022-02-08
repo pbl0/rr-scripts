@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Factory Production Ranking
 // @namespace    pbl0.github.io/rr-tools
-// @version      0.1
+// @version      0.2
 // @description  Description
 // @author       Pablo
 // @match        https://rivalregions.com/info/regions
 // @grant        GM_setValue
 // @grant        GM_getValue
-// @updateURL
+// @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/factory-production-rank/factory-production-ranking.user.js
 // ==/UserScript==
 
 $(document).ready(function () {

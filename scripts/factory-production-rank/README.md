@@ -30,4 +30,4 @@ The new columns added are **10E Prod**, **300E Prod** and **$**. Click on any co
 
 [scripts]: http://rr-tools.eu/mods
 
-[raw]: https://github.com/pbl0/factory-production-rank/raw/master/factory-production-ranking.user.js
+[raw]: https://github.com/pbl0/rr-scripts/raw/main/scripts/factory-production-rank/factory-production-ranking.user.js

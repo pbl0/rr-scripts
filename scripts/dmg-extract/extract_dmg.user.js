@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         DMG Extract
 // @namespace    https://pablobls.tech/
-// @version      0.1
+// @version      0.2
 // @description  Extract dmg from fronts in rival regions
 // @author       Pablo
 // @match        *://rivalregions.com/*
@@ -10,6 +10,7 @@
 // @grant GM_setValue
 // @grant GM_getValue
 // @require https://code.jquery.com/jquery-3.6.0.slim.min.js
+// @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/dmg-extract/extract_dmg.user.js
 // ==/UserScript==
 
 (function () {

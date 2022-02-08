@@ -4,8 +4,8 @@
 // @match       *://rivalregions.com/
 // @author      Pablo
 // @description Small userscript that adds blur effect to RivalRegions game overlay in PC version
-// @version      0.0.1
-// @downloadURL https://github.com/pbl0/blur-overlay-rr/raw/master/blur-overlay-rr.user.js
+// @version      0.0.2
+// @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/blur-overlay/blur-overlay-rr.user.js
 // ==/UserScript==
 
 const BLUR = "10";

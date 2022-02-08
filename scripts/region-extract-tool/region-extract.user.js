@@ -7,8 +7,8 @@
 // @description
 // @grant GM_setValue
 // @grant GM_getValue
-// @version     0.2
-// @downloadURL https://github.com/pbl0/region-extract-tool/raw/master/region-extract.user.js
+// @version     0.3
+// @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/region-extract-tool/region-extract.user.js
 // @require https://code.jquery.com/jquery-3.6.0.slim.min.js
 // ==/UserScript==
 

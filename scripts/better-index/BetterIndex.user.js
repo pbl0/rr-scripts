@@ -4,16 +4,17 @@
 // @match       *://*rivalregions.com/
 // @grant       GM_getValue
 // @grant       GM_setValue
-// @version     1.0.3
+// @version     1.0.4
 // @author      Pablo
 // @description Index list
-// @downloadURL https://github.com/pbl0/BetterIndexRR/raw/main/BetterIndex.user.js
+// @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/better-index/BetterIndex.user.js
 // @require https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
 // ==/UserScript==
 
 /**
- * v1.0.2 - Add/Remove button to add custom regions, change of custom region color
+ * v1.0.4 - Minor fixes.
  * v1.0.3 - Visual fix
+ * v1.0.2 - Add/Remove button to add custom regions, change of custom region color
  */
 
 var myRegions = GM_getValue('myregions');
@@ -112,7 +113,7 @@ function addRegion() {
 
 function regionPage() {
     if (location.href.includes('//m.')) {
-        addClickEvents();
+        // addClickEvents(); // No longer needed. Links were added to the base game.
         addButton(true)
     } else {
         $('#better-index').remove();
@@ -123,7 +124,6 @@ function regionPage() {
 function addButton(mobile) {
     let selector;
     if (mobile){
-        console.log('si')
         selector = '#region_details_after > div > div';
     } else {
         selector = 'div.small.imp.tc>span';

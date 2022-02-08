@@ -19,4 +19,4 @@ Script for rivalregions game that allows to extract both the individual and part
 
 [scripts]: https://rr-tools.eu/mods
 
-[raw]: https://github.com/pbl0/dmg-extract/raw/master/extract_dmg.user.js
+[raw]: https://github.com/pbl0/rr-scripts/raw/main/scripts/dmg-extract/extract_dmg.user.js

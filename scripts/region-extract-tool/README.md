@@ -20,4 +20,4 @@ Script for rivalregions game that allows to extract the number of building of an
 
 [scripts]: https://rr-tools.eu/mods
 
-[raw]: https://github.com/pbl0/region-extract-tool/raw/master/region-extract.user.js
+[raw]: https://github.com/pbl0/rr-scripts/raw/main/scripts/region-extract-tool/region-extract.user.js

@@ -6,9 +6,9 @@
 // @description Subite los stats bobo
 // @grant       GM_getValue
 // @grant       GM_setValue
-// @version     0.0.4
+// @version     0.0.5
 // @require https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
-// @downloadURL https://github.com/pbl0/auto-perk/raw/main/auto-perk-legacy.user.js
+// @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/auto-perk/auto-perk-legacy.user.js
 // ==/UserScript==
 
 /**

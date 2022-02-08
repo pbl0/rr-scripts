@@ -4,10 +4,10 @@
 // @match       *://rivalregions.com/
 // @grant       GM_getValue
 // @grant       GM_setValue
-// @version     0.0.2
+// @version     0.0.3
 // @author      Pablo
 // @description just refills da gold
-// @downloadURL https://github.com/pbl0/refill_gold_rr/raw/master/RefillGoldPC.user.js
+// @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/refill-gold/pc/RefillGoldPC.user.js
 // @require https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
 // ==/UserScript==
 

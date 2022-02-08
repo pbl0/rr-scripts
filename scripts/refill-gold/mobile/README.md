@@ -29,7 +29,7 @@ It will check how much time has passed from last refill, how much gold the regio
 
 [vm]: https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag
 
-[myscript]: https://github.com/pbl0/refill_gold_rr/raw/master/RefillGold.user.js
+[myscript]: https://github.com/pbl0/rr-scripts/raw/main/scripts/refill-gold/mobile/RefillGold.user.js
 
 [img]: https://raw.githubusercontent.com/pbl0/refill_gold_rr/master/screen.png
 
