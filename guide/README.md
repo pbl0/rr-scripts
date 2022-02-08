@@ -16,7 +16,7 @@ To use user scripts you need to first install a script manager extension. Some o
 This guide will focus mostly on [ViolentMonkey][vm] as it has some extra configuration features and it works both on PC and Mobile.
 
 - **Windows/Linux/MacOS:**
-    - Install an user script manager extension, [ViolentMonkey][vm] is my recomendation but TamperMonkey/GreaseMonkey should work.
+    - Install an user script manager extension, [ViolentMonkey][vm] is my recommendation but TamperMonkey/GreaseMonkey should work.
 
 - **Android:**
     - > **Important:** The usage of scripts in smart-phones is experimental and isn't supported by most browsers. Until now, neither Chrome or Firefox allow to install any script manager.
