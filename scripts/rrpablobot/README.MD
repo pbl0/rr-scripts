@@ -17,5 +17,5 @@ In progress:
 
 Contact [@pablo_rr](https://pablo_rr) to help improve this bot by reporting issues or suggesting new features.
 
-### Example
+### Usage
 ![img](https://raw.githubusercontent.com/pbl0/rr-scripts/main/scripts/rrpablobot/example.jpg)
