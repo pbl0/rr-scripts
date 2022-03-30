@@ -6,11 +6,11 @@ This scripts calculates the production of the top level factory of each region i
 
 After installing it will work whenever you enter https://rivalregions.com/info/regions (Make sure to login on the game first otherwise it will show a blank page). Wait a few seconds for every region to load and the script will show a small menu:
 
-<img src="https://raw.githubusercontent.com/pbl0/factory-production-rank/master/res/menu.jpg" alt="menu"/>
+<img src="https://raw.githubusercontent.com/pbl0/rr-scripts/main/scripts/factory-production-rank/res/menu.jpg" alt="menu"/>
 
 Fill out with your level, work experience and current market price of the desired resource and it will calculate your production for the top level factory of each region.
 
-<img src="https://raw.githubusercontent.com/pbl0/factory-production-rank/master/res/show.jpg" alt="example" width="550"/>
+<img src="https://raw.githubusercontent.com/pbl0/rr-scripts/main/scripts/factory-production-rank/res/show.jpg" alt="example" width="550"/>
 
 The new columns added are **10E Prod**, **300E Prod** and **$**. Click on any column header to sort the table.
 
