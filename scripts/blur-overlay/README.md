@@ -2,9 +2,9 @@
 Small userscript that add blur effect to RivalRegions game overlay in PC version.
 
 ## Preview
-![Screenshot before and after 1](https://raw.githubusercontent.com/pbl0/blur-overlay-rr/master/screenshots/beforeafterblur1.png)
+![Screenshot before and after 1](assets/rr-scripts/scripts/blur-overlay/screenshots/beforeafterblur1.png?raw=true)
 
-![Screenshot before and after 2](https://raw.githubusercontent.com/pbl0/blur-overlay-rr/master/screenshots/beforeafterblur2.png)
+![Screenshot before and after 2](assets/rr-scripts/scripts/blur-overlay/screenshots/beforeafterblur2.png?raw=true)
 
 ## Install
 

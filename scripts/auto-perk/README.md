@@ -10,7 +10,7 @@ Script that upgrades your perks automatically.
 
 Select perk and type of payment.
 
-<img class="image" src="https://raw.githubusercontent.com/pbl0/auto-perk/main/perk.png" alt="menu"/>
+<img class="image" src="assets/rr-scripts/scripts/auto-perk/perk.png" alt="menu"/>
 
 
 ## Install

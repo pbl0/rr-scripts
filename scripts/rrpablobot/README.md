@@ -20,4 +20,4 @@ In progress:
 Contact [@pablo_rr](https://pablo_rr) to help improve this bot by reporting issues or suggesting new features.
 
 ### Usage
-![img](https://raw.githubusercontent.com/pbl0/rr-scripts/main/scripts/rrpablobot/example.jpg)
+![img](assets/rr-scripts/scripts/rrpablobot/example.jpg)

@@ -5,7 +5,7 @@ This script takes the amount of power plants and compares it to the amount of bu
 Once installed you should see the surplus(green) or deficit(red):
 
 
-<img src="https://raw.githubusercontent.com/pbl0/power-plant/master/drake-powerplant.png" alt="meme" width="550"/>
+<img src="assets/rr-scripts/scripts/power-plant/drake-powerplant.png" alt="meme" width="550"/>
 
 ## Installation
 

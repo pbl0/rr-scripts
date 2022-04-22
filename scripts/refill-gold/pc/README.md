@@ -29,6 +29,6 @@
 
 [myscript]: https://github.com/pbl0/rr-scripts/raw/main/scripts/refill-gold/pc/RefillGoldPC.user.js
 
-[img]: https://raw.githubusercontent.com/pbl0/refill_gold_rr/master/screen.png
+[img]: assets/rr-scripts/scripts/refill-gold/screen.png
 
-[values]: https://raw.githubusercontent.com/pbl0/refill_gold_rr/master/values.jpg
+[values]: assets/rr-scripts/scripts/refill-gold/values.jpg
