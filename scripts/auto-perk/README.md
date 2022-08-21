@@ -17,7 +17,7 @@ Select perk and type of payment.
 
 - Read [how to install user scripts for RR][guide].
 - Click [here][raw] to install.
-- If you have trouble with that script install [legacy version][rawlegacy] instead. Remove/disable the other version!.
+- If you have trouble with that script install [legacy version][rawlegacy] instead. Remove/disable the other version!
 - Check out my [RR script collection][scripts].
 
 
@@ -29,5 +29,5 @@ Select perk and type of payment.
 
 [rawlegacy]: https://github.com/pbl0/rr-scripts/raw/main/scripts/auto-perk/auto-perk-legacy.user.js
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjkyMjkyMF19
+eyJoaXN0b3J5IjpbMTA4OTg1NTc3OF19
 -->
