@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        BlurOverlayRR
-// @namespace   https://pablobls.tech/
+// @namespace   https://pablob.eu/
 // @match       *://rivalregions.com/
 // @author      Pablo
 // @description Small userscript that adds blur effect to RivalRegions game overlay in PC version

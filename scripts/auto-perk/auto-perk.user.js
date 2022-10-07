@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        auto-perk
-// @namespace   https://pablobls.tech/
+// @namespace   https://pablob.eu/
 // @match       *://*rivalregions.com/
 // @author      pablo
 // @description Subite los stats bobo

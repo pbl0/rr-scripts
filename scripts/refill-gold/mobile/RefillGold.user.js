@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        RefillGoldScript
-// @namespace   https://pablobls.tech/
+// @namespace   https://pablob.eu/
 // @match       *://m.rivalregions.com/
 // @grant       GM_getValue
 // @grant       GM_setValue

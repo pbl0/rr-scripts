@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         DMG Extract
-// @namespace    https://pablobls.tech/
+// @namespace    https://pablob.eu/
 // @version      0.2
 // @description  Extract dmg from fronts in rival regions
 // @author       Pablo
