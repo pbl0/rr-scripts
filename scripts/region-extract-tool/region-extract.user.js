@@ -7,7 +7,7 @@
 // @description
 // @grant GM_setValue
 // @grant GM_getValue
-// @version     0.3
+// @version     0.4
 // @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/region-extract-tool/region-extract.user.js
 // @require https://code.jquery.com/jquery-3.6.0.slim.min.js
 // ==/UserScript==
@@ -16,7 +16,7 @@
  *  IMPORTANT: ONLY WORKS ON ENGLISH INTERFACE OF RIVALREGIONS
  */
 
-$(document).ready(function () {
+ $(document).ready(function () {
     window.addEventListener('popstate', listener);
 
     const pushUrl = (href) => {
@@ -28,7 +28,7 @@ $(document).ready(function () {
 });
 
 function listener() {
-    
+
     if (location.href.includes('#map/details/')) {
         regionPage();
     } else if (location.href.includes('/region-cost')) {
@@ -60,7 +60,7 @@ function calcPage() {
         if ($('div.container.box').length) {
             clearInterval(loadInterval);
             $(
-                'body > app-root > section > app-region-cost-calc > div > div > form > div:nth-child(1) > app-two-inputs:nth-child(5) > form > div > div:nth-child(2)'
+                'app-buildings'
             ).append(
                 `<a id="my-load-button" class="pt-3 button is-primary">${region.regionName}</a>`
             );
