@@ -16,6 +16,10 @@
  *  IMPORTANT: ONLY WORKS ON ENGLISH INTERFACE OF RIVALREGIONS
  */
 
+/**
+ * v0.4 - fix on button inside rr-tools.eu
+ */
+
  $(document).ready(function () {
     window.addEventListener('popstate', listener);
 
