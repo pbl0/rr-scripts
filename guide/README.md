@@ -14,7 +14,7 @@ Scripts are like mods but for websites. They make the game better by adding feat
 
 To use scripts you need to first install a script manager extension. Some of the most popular ones are ViolentMonkey, TamperMonkey, GreaseMonkey.
 
-This guide will focus mostly on [ViolentMonkey][vm] as it has some extra [configuration features](#configuration-values) and it works both on PC and Mobile.
+This guide will focus mostly on [ViolentMonkey][vm] as it has some extra configuration features and it works both on PC and Mobile.
 
 - **Windows/Linux/MacOS:**
     - Install an script manager extension, [ViolentMonkey][vm] is my recommendation but TamperMonkey/GreaseMonkey should also work.
