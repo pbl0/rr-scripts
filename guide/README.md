@@ -31,7 +31,7 @@ This guide will focus mostly on [ViolentMonkey][vm] as it has some extra configu
 - Once the script is installed just visit the game (or the specific page it affects). It should automatically do its thing.
 
 ### Configuration Values
-Some scripts might have configurations values (GM_values) that you might want to change. ViolentMonkey easily allows this in the values tab while editing the script. Bromite doens't seem to support these GM_values so this scripts won't work.
+Some scripts might have configurations values (GM_values) that you might want to change. ViolentMonkey easily allows this in the values tab while editing the script. Bromite doesn't seem to support these GM_values so this scripts won't work.
 
 Adguard and TamperMonkey don't seem to allow changing the values manually, so you might have to edit the script code to change the default values (however these will get erased whenever the script gets updated).
 
