@@ -1,27 +1,28 @@
 
-# RR Mod guide
+# RR mods guide
 
-This guide is aimed at anyone who wants to install and use user scripts/mods in the [Rival Regions][rr] game both in mobile and PC platforms.
+This guide is aimed at anyone who wants to install and use user scripts (mods) in [Rival Regions][rr] game both on mobile and PC.
 
+* * *
 ### What are user scripts?
 
-Scripts are like mods fit for websites. They make the game better by adding features, making them easier to use, or taking out the annoying bits, extracting data, automating tasks etc.
+Scripts are like mods but for websites. They make the game better by adding features, making them easier to use, or taking out the annoying bits, extracting data, automating tasks etc.
 
-> **Reminder:** From what is known, scripts only work on the web browser version of the game and don't work in the mobile app (at lest in an easy way).
+> **Reminder:** From what is known, scripts only work on the web browser version of the game and won't work on the mobile app (at lest in an easy way).
 
 ### Installation and usage
 
-To use user scripts you need to first install a script manager extension. Some of the most popular ones are ViolentMonkey, TamperMonkey, GreaseMonkey.
+To use scripts you need to first install a script manager extension. Some of the most popular ones are ViolentMonkey, TamperMonkey, GreaseMonkey.
 
-This guide will focus mostly on [ViolentMonkey][vm] as it has some extra configuration features and it works both on PC and Mobile.
+This guide will focus mostly on [ViolentMonkey][vm] as it has some extra [configuration features](#configuration-values) and it works both on PC and Mobile.
 
 - **Windows/Linux/MacOS:**
-    - Install an user script manager extension, [ViolentMonkey][vm] is my recommendation but TamperMonkey/GreaseMonkey should also work.
+    - Install an script manager extension, [ViolentMonkey][vm] is my recommendation but TamperMonkey/GreaseMonkey should also work.
 
 - **Android:**
     - > **Important:** The usage of scripts in smart-phones is experimental and isn't supported by most browsers. Until now, neither Chrome or Firefox allow to install any script manager.
     - There are a few browsers that support extensions such as [Kiwi Browser][kiwi] which will require to install [ViolentMonkey][vm].
-    - Another option is to install [bromite](https://www.bromite.org/) as it supports scripts by default, although some of my scripts won't work.
+    - Another option is to install [Bromite](https://www.bromite.org/) as it supports scripts by default, although some of my scripts won't work.
     - An alternative way to use user scripts in mobile is using [Adguard app][adguard] (**paid feature**), which is meant to block ads system-wide but also has a built-in script manager. This works on any browser as long as the Adguard app is running in the background.
 
 
@@ -44,11 +45,11 @@ Adguard and TamperMonkey don't seem to allow changing the values manually, so yo
 - You need to refresh whenever you disable/enable scripts
 - Contact script author
 
-> **Reminder:** Most scripts will only work with the english language setting.
+> **Important:** Most of my scripts will only work with the english language setting.
 
 ### Updating a script
 
-scripts will get updated whenever it's author pushes an update in their repository. ViolentMonkey defaults to checking updates once a day but you can also manually check for updates.
+Scripts will get updated whenever it's author pushes an update in their repository. ViolentMonkey defaults to checking updates once a day but you can also manually check for updates.
 > If you do not want to receive any updates just delete the `@downloadURL` line in the script headers.
 
 ### Further information
@@ -73,3 +74,6 @@ scripts will get updated whenever it's author pushes an update in their reposito
 [gear]: https://apps.apple.com/us/app/gear-browser/id1458962238
 
 [stylus]: https://github.com/openstyles/stylus#releases
+
+* * *
+> _Updated: Dec 8 2022_
