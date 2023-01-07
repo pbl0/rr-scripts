@@ -176,7 +176,7 @@ function addMenu(isOn) {
     $('.mob_box.mob_box_region_s').append(
         `<div id="my_refill" class="button_${buttonColor} index_auto pointer mslide">${buttonText}</div>
 		<div class="tiny">Last refill: ${lastRefill} (state:${myState})
-		<span class='addit_2'> Script by @pablo_rr (v${myVersion}) </span>
+		<span class='addit_2'> Script by @pablobls (v${myVersion}) </span>
 		</div>`
     );
 }

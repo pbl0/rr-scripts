@@ -180,7 +180,7 @@ function addMenu(isOn) {
     `<div id="my_refill" class="button_${buttonColor} index_auto pointer mslide">${buttonText}</div>
     <div class="small white">Last refill: ${lastRefill} (state:${myState})
     <br>
-    <span class='addit_2 small'> Script by @pablo_rr (v${myVersion}) </span>
+    <span class='addit_2 small'> Script by @pablobls (v${myVersion}) </span>
     <br>
     ` +
     autoRefillButton +

@@ -17,7 +17,7 @@ In progress:
 
 > **Reminder:** This bot is sill a work in progress, expect some bugs or not working at all for brief periods of time.
 
-Contact [@pablo_rr](https://pablo_rr) to help improve this bot by reporting issues or suggesting new features.
+Contact [@pablobls](https://pablobls) to help improve this bot by reporting issues or suggesting new features.
 
 ### Usage
 ![img](assets/rr-scripts/scripts/rrpablobot/example.jpg)
