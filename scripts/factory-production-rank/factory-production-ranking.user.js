@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Factory Production Ranking
 // @namespace    https://rr-tools.eu/
-// @version      0.4
+// @version      0.4.1
 // @description  Description
 // @author       Pablo
 // @match        https://rivalregions.com/info/regions
@@ -13,12 +13,12 @@
 // ==/UserScript==
 
 /* Versions:
-v0.4:
-    - Adding missing dependency at @require
-    - fixed table columns bug.
+v0.4.1:
+    - Adding missing dependency at @require: Tablesorter
     - Updated @namespace.
+    - fixed table columns bug.
 v0.3:
-    - Adding missing dependency at @require
+    - Adding missing dependency at @require: JQuery
 */
 
 $(document).ready(function () {
