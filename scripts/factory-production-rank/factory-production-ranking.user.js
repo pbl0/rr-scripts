@@ -1,15 +1,25 @@
 // ==UserScript==
 // @name         Factory Production Ranking
-// @namespace    pbl0.github.io/rr-tools
-// @version      0.3
+// @namespace    https://rr-tools.eu/
+// @version      0.4
 // @description  Description
 // @author       Pablo
 // @match        https://rivalregions.com/info/regions
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @require https://code.jquery.com/jquery-3.6.0.slim.min.js
+// @require https://mottie.github.io/tablesorter/dist/js/jquery.tablesorter.min.js
 // @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/factory-production-rank/factory-production-ranking.user.js
 // ==/UserScript==
+
+/* Versions:
+v0.4:
+    - Adding missing dependency at @require
+    - fixed table columns bug.
+    - Updated @namespace.
+v0.3:
+    - Adding missing dependency at @require
+*/
 
 $(document).ready(function () {
     window.addEventListener('popstate', listener);
