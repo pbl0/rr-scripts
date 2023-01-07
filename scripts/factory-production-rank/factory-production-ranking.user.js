@@ -155,7 +155,7 @@ function info() {
             'tr>td:not(:first-child), tr>th:not(:first-child, :nth-child(33), :nth-child(34), :nth-child(35))'
         ).hide();
 
-        $(`td:nth-child(1),${tdcols},th:nth-child(1),${thcols}`).each(
+        $(`td:nth-child(1)${tdcols},th:nth-child(1)${thcols}`).each(
             function () {
                 $(this).show();
             }
