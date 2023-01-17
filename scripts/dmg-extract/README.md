@@ -4,9 +4,9 @@ Script for rivalregions game that allows to extract both the individual and part
 
 ### How to use:
 
-<a class="is-hidden" href="https://www.youtube.com/watch?v=eNKqQGfjZhs"><img width="500" src="embed.png" alt="video"></a>
+<a class="is-hidden" href="https://www.youtube.com/watch?v=wRw9q8HbFmo"><img width="500" src="embed.png" alt="video"></a>
 
-<iframe width="500" height="300" src="https://www.youtube.com/embed/eNKqQGfjZhs" frameborder="0" allowfullscreen></iframe>
+<iframe width="500" height="300" src="https://www.youtube.com/embed/wRw9q8HbFmo" frameborder="0" allowfullscreen></iframe>
 
 ### Installation
 

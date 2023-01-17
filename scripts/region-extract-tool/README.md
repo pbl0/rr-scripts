@@ -5,9 +5,9 @@ Script for rivalregions game that allows to extract the number of building of an
 
 ### How to use:
 
-<a class="is-hidden" href="https://www.youtube.com/watch?v=UmtOKioDqS8"><img width="500" src="embed.png" alt="video"></a>
+<a class="is-hidden" href="https://www.youtube.com/watch?v=ocSTNb_WWmw"><img width="500" src="embed.png" alt="video"></a>
 
-<iframe width="500" height="300" src="https://www.youtube.com/embed/UmtOKioDqS8" frameborder="0" allowfullscreen></iframe>
+<iframe width="500" height="300" src="https://www.youtube.com/embed/ocSTNb_WWmw" frameborder="0" allowfullscreen></iframe>
 
 ### Installation
 
