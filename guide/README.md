@@ -14,26 +14,20 @@ Scripts are like mods but for websites. They make the game better by adding feat
 
 To use scripts you need to first install a script manager extension. Some of the most popular ones are ViolentMonkey, TamperMonkey, GreaseMonkey.
 
-This guide will focus mostly on [ViolentMonkey][vm] as it has some extra configuration features and it works both on PC and Mobile.
+This guide will focus mostly on [ViolentMonkey][vm].
 
 - **Windows/Linux/MacOS:**
     - Install an script manager extension, [ViolentMonkey][vm] is my recommendation but TamperMonkey/GreaseMonkey should also work.
 
 - **Android:**
-    - > **Important:** The usage of scripts in smart-phones is experimental and isn't supported by most browsers. Until now, neither Chrome or Firefox allow to install any script manager.
-    - There are a few browsers that support extensions such as [Kiwi Browser][kiwi] which will require to install [ViolentMonkey][vm].
-    - Another option is to install [Bromite](https://www.bromite.org/) as it supports scripts by default, although some of my scripts won't work.
-    - An alternative way to use user scripts in mobile is using [Adguard app][adguard] (**paid feature**), which is meant to block ads system-wide but also has a built-in script manager. This works on any browser as long as the Adguard app is running in the background.
+    - > **Important:** The usage of scripts in smart-phones is experimental and isn't supported by most browsers.
+    - The best option is to install [Bromite](https://www.bromite.org/) browser as it supports scripts by default. [Read mode](https://telegra.ph/How-to-install-user-scripts-on-Android-using-Bromite-05-14).
 
 
 - **Both:** Now that your browser is ready to install some scripts, you can pick one from my [collection][scripts]. In order to install a script you can simply open the script url in your browser and your user script manager will do the rest.
 
 - Once the script is installed just visit the game (or the specific page it affects). It should automatically do its thing.
 
-### Configuration Values
-Some scripts might have configurations values (GM_values) that you might want to change. ViolentMonkey easily allows this in the values tab while editing the script. Bromite doesn't seem to support these GM_values so most of my scripts won't work.
-
-Adguard and TamperMonkey don't seem to allow changing the values manually, so you might have to edit the script code to change the default values (however these changes will get erased whenever the script gets updated).
 
 ### Things you could do when a user script breaks
 
@@ -47,10 +41,19 @@ Adguard and TamperMonkey don't seem to allow changing the values manually, so yo
 
 > **Important:** Most of my scripts will only work with the english language setting.
 
+* * *
+
 ### Updating a script
 
 Scripts will get updated whenever it's author pushes an update in their repository. ViolentMonkey defaults to checking updates once a day but you can also manually check for updates.
 > If you do not want to receive any updates just delete the `@downloadURL` line in the script headers.
+
+### Configuration Values
+Some scripts might have configurations values (GM_values) that you might want to change. ViolentMonkey easily allows this in the values tab while editing the script. Bromite doesn't seem to support these GM_values so most of my scripts won't work.
+
+Adguard and TamperMonkey don't seem to allow changing the values manually, so you might have to edit the script code to change the default values (however these changes will get erased whenever the script gets updated).
+
+* * *
 
 ### Further information
 
