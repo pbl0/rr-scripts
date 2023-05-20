@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name        RefillGoldScript
 // @namespace   https://pablob.eu/
-// @match       *://m.rivalregions.com/
-// @version     0.1.0
+// @match       https://m.rivalregions.com/
+// @match       http://m.rivalregions.com/
+// @version     0.1.1
 // @author      Pablo
 // @description just refills the gold (MOBILE)
 // @run-at document-idle
@@ -16,28 +17,24 @@
  * */
 
 // State ID of your state:
-var myState = localStorage.getItem("myState"); //  "3006";
+var myState = localStorage.getItem("myState"); //  Example: "3006";
 // Hours it should wait for next refill ( default 2 ):
-const hours = localStorage.getItem("hours");
+var hours = localStorage.getItem("hours");
 // If gold level is below this it will refill (only works in your current region) ( default 250 ):
-const threshold = localStorage.getItem("threshold");
-
-const showTable = localStorage.getItem("table", true);
-
-var tabla;
+var threshold = localStorage.getItem("threshold");
 
 // First time
 if (!myState) {
-  localStorage.setItem("myState", "3006");
-  const myState = localStorage.getItem("myState");
+  localStorage.setItem("myState", "-");
+  myState = localStorage.getItem("myState");
 }
 if (!hours) {
-  localStorage.setItem("hours", 2);
-  const hours = localStorage.getItem("hours");
+  localStorage.setItem("hours", 1);
+  hours = localStorage.getItem("hours");
 }
 if (!threshold) {
   localStorage.setItem("threshold", 250);
-  const threshold = localStorage.getItem("threshold");
+  threshold = localStorage.getItem("threshold");
 }
 
 const timePassed = hours * 3600000;
@@ -69,14 +66,10 @@ function listener() {
     (lastRefill == null || new Date().getTime() - lastRefill > timePassed)
   ) {
     refill_gold();
-
-    // addTable();
   }
 }
 
 function refill_gold() {
-  // Fetch
-
   fetch("https://m.rivalregions.com/parliament/donew/42/0/0", {
     headers: {
       accept: "*/*",
@@ -144,15 +137,17 @@ function mainPage() {
       !document.getElementById("my_mob_box")
     ) {
       clearInterval(mainPageInterval);
-
-      if (
+      if (myState == "-") {
+        addMenu(false, true);
+        localStorage.setItem("is_my_state", false);
+      } else if (
         document
           .getElementById("mob_box_region_2")
           .getAttribute("action")
           .replace("map/state_details/", "") == myState
       ) {
         if (!document.getElementById("my_refill")) {
-          addMenu(true);
+          addMenu(true, false);
           document
             .getElementById("my_refill")
             .addEventListener("click", refill_gold);
@@ -160,7 +155,7 @@ function mainPage() {
 
         localStorage.setItem("is_my_state", true);
       } else {
-        addMenu(false);
+        addMenu(false, false);
         localStorage.setItem("is_my_state", false);
       }
     }
@@ -177,7 +172,7 @@ function profile_page() {
   }
 }
 
-function addMenu(isOn) {
+function addMenu(isOn, notSet) {
   let lastRefill = new Date(
     JSON.parse(localStorage.getItem("last_refill"))
   ).toLocaleString();
@@ -186,21 +181,27 @@ function addMenu(isOn) {
   if (isOn) {
     buttonColor = "link";
     buttonText = "Refill now";
-    if (showTable) {
-      // addTable();
-    }
+  } else if (notSet) {
+    buttonColor = "red";
+    buttonText = "Please access your profile page";
   } else {
     buttonColor = "white";
     buttonText = "Not your state";
-    // autoRefillButton = "";
   }
   document.querySelector(".mob_box.mob_box_region_s").insertAdjacentHTML(
     "beforeend",
     `<div id="my_refill" class="button_${buttonColor} index_auto pointer mslide">${buttonText}</div>
           <div class="tiny">Last refill: ${lastRefill} (state:${myState})
           <span class='addit_2'> Script by @pablobls</span>
-          </div>`
+    </div>`
+    // Uncoment for testing purposes, resets localStorage variables
+    //    <div id="reset_refill" class="button_red index_auto pointer mslide">Reset</div></div>
   );
+
+  // Uncoment for testing purposes, resets localStorage variables
+  // document
+  //   .getElementById("reset_refill")
+  //   .addEventListener("click", resetLocalStorage());
 }
 
 function refillFromTable() {
@@ -234,34 +235,9 @@ function get_c() {
   }
   return c;
 }
-
-function addTable() {
-  // Fetch
-
-  if (!tabla) {
-    fetch(`/listed/stateresources/${myState}?c=${get_c()}`, {
-      method: "GET",
-    })
-      .then((response) => {
-        response.text().then((text) => {
-          const parser = new DOMParser();
-          const html = parser.parseFromString(text, "text/html");
-          tabla = html.querySelector("table");
-          document
-            .querySelector(".mob_box.mob_box_region_s")
-            .insertAdjacentElement("afterend", tabla);
-          refillFromTable();
-        });
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  } else {
-    document
-      .querySelector(".mob_box.mob_box_region_s")
-      .insertAdjacentElement("afterend", tabla);
-  }
-}
-function deleteTable() {
-  tabla = null;
+function resetLocalStorage() {
+  localStorage.removeItem("hours");
+  localStorage.removeItem("is_my_state");
+  localStorage.removeItem("myState");
+  localStorage.removeItem("threshold");
 }
