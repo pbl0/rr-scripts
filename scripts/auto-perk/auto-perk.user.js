@@ -224,7 +224,7 @@ function addMenu() {
                                 } value="3">Endurance</option>
                                 <option ${
                                     perk == 4 ? 'selected' : ''
-                                } value="1">Best</option>
+                                } value="4">Best</option>
                             </select>
     
                         </div>`;
