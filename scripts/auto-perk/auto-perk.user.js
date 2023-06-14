@@ -84,6 +84,27 @@ function upgradePerk() {
     const perk = $('#myperk').val(); // GM_getValue('perk');
     const url = $('#myurl').val(); // GM_getValue('url');
     // console.log(perk, url)
+    if (perk == 4){
+        let str = parseInt($('div.perk_item:nth-child(4) > .perk_source_2').text());
+        let edu = parseInt($('div.perk_item:nth-child(5) > .perk_source_2').text());
+        let end = parseInt($('div.perk_item:nth-child(6) > .perk_source_2').text());
+
+        let strtime = Math.pow(str+1, 2)/2;
+        let edutime = Math.pow(edu+1, 2);
+        let endtime = Math.pow(end+1, 2);
+
+        strtime = str<50?strtime/4:str<100?strtime/2:strtime;
+        edutime = edu<50?edutime/4:str<100?edutime/2:edutime;
+        endtime = end<50?endtime/4:str<100?endtime/2:endtime;
+
+        if (strtime/2 <= edutime && strtime/2 <= endtime) {
+            perk = 1;
+        } else if (edutime <= endtime ) {
+            perk = 2;
+        } else {
+            perk = 3;
+        }
+    }
     $.ajax({
         url: '/perks/up/' + perk + '/' + url,
         data: { c: c_html },
@@ -200,6 +221,9 @@ function addMenu() {
                                 <option ${
                                     perk == 3 ? 'selected' : ''
                                 } value="3">Endurance</option>
+                                <option ${
+                                    perk == 4 ? 'selected' : ''
+                                } value="1">Best</option>
                             </select>
     
                         </div>`;
