@@ -85,7 +85,7 @@ function upgradePerk() {
     const url = $('#myurl').val(); // GM_getValue('url');
     const realperk = perk;
     // console.log(perk, url)
-    if (perk == 4){
+    if (perk == '4'){
         let str = parseInt($('div.perk_item:nth-child(4) > .perk_source_2').text());
         let edu = parseInt($('div.perk_item:nth-child(5) > .perk_source_2').text());
         let end = parseInt($('div.perk_item:nth-child(6) > .perk_source_2').text());
@@ -98,12 +98,12 @@ function upgradePerk() {
         edutime = edu<50?edutime/4:str<100?edutime/2:edutime;
         endtime = end<50?endtime/4:str<100?endtime/2:endtime;
 
-        if (strtime/2 <= edutime && strtime/2 <= endtime) {
-            realperk = 1;
-        } else if (edutime <= endtime ) {
-            realperk = 2;
+        if (edutime <= strtime && edutime <= endtime) {
+            realperk = '2';
+        } else if (strtime <= endtime ) {
+            realperk = '1';
         } else {
-            realperk = 3;
+            realperk = '3';
         }
     }
     $.ajax({
