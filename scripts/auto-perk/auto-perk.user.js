@@ -83,7 +83,7 @@ function mainPage() {
 function upgradePerk() {
     const perk = $('#myperk').val(); // GM_getValue('perk');
     const url = $('#myurl').val(); // GM_getValue('url');
-    const realperk = perk;
+    let realperk = perk;
     // console.log(perk, url)
     if (perk == '4'){
         let str = parseInt($('div.perk_item:nth-child(4) > .perk_source_2').text());
