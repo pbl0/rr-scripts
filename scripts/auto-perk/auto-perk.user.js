@@ -94,9 +94,9 @@ function upgradePerk() {
         let edutime = Math.pow(edu+1, 2);
         let endtime = Math.pow(end+1, 2);
 
-        strtime = str<50?strtime/4:str<100?strtime/2:strtime;
-        edutime = edu<50?edutime/4:str<100?edutime/2:edutime;
-        endtime = end<50?endtime/4:str<100?endtime/2:endtime;
+        strtime = strtime / (str<50?2:1) / (str<100?2:1);
+        edutime = edutime / (edu<50?2:1) / (edu<100?2:1);
+        endtime = endtime / (end<50?2:1) / (end<100?2:1);
 
         if (edutime <= strtime && edutime <= endtime) {
             realperk = '2';
