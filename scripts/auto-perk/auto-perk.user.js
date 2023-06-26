@@ -6,17 +6,12 @@
 // @description Subite los stats bobo
 // @grant       GM_getValue
 // @grant       GM_setValue
-// @version     0.0.6
+// @version     0
 // @require https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js
-// @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/auto-perk/auto-perk.user.js
+// @downloadURL https://github.com/berkziya/rr-scripts/raw/main/scripts/auto-perk/auto-perk.user.js
 // ==/UserScript==
 
-/**
- * v0.0.5 - removed bug that caused infinite page-refreshing to many people. Many thanks to Itusil for finding the error & fixing it! 
- * v0.0.3 - added perk and url menu
- */
-
-/**
+/*
  * ONLY WORKS WITH ENGLISH INTERFACE
  *
  * Perk:
@@ -28,9 +23,8 @@
  * 1 = money
  * 2 = gold
  *
- *
  */
-//const $ = window.jQuery;
+
 const firstTime = GM_getValue('first-time', true);
 
 if (firstTime) {
@@ -63,7 +57,6 @@ function mainPage() {
         if ($('#index_perks_list').length) {
             addMenu();
             clearInterval(waitInterval);
-            // to check if any perk is already active
             const countdownAmount = $(
                 '#index_perks_list>div>div[perk]>.hasCountdown'
             ).length;
@@ -81,17 +74,18 @@ function mainPage() {
 }
 
 function upgradePerk() {
-    const perk = $('#myperk').val(); // GM_getValue('perk');
-    const url = $('#myurl').val(); // GM_getValue('url');
+    const perk = $('#myperk').val();
+    const url = $('#myurl').val();
     let realperk = perk;
-    // console.log(perk, url)
+    let eduweight = 60;
+    
     if (perk == '4'){
         let str = parseInt($('div.perk_item:nth-child(4) > .perk_source_2').text());
         let edu = parseInt($('div.perk_item:nth-child(5) > .perk_source_2').text());
         let end = parseInt($('div.perk_item:nth-child(6) > .perk_source_2').text());
 
         let strtime = Math.pow(str+1, 2)/2;
-        let edutime = Math.pow(edu+1, 2);
+        let edutime = Math.pow(edu+1, 2)*(1-eduweight/100);
         let endtime = Math.pow(end+1, 2);
 
         strtime = strtime / (str<50?2:1) / (str<100?2:1);
@@ -112,9 +106,6 @@ function upgradePerk() {
         type: 'POST',
         success: function (data) {
             console.log('perk upgraded', new Date().toLocaleString());
-            // console.log(data);
-            // ajax_action('main/content');
-
             location.reload();
         },
     });
@@ -128,13 +119,10 @@ function setUpgradeTimeout() {
 
     const tiempo = $('#index_perks_list>div>div[perk]>.hasCountdown').text();
 
-    //Itusil
-    //Cambiamos la forma de mirar cuanto queda, ahora sacamos el tiempo que ble queda a la perk y lo pasamos a ms
     let longitud = tiempo.length;
     let ms = 0;
     nextPerkText = '';
     if (tiempo.includes('d ')) {
-        //Significará que es dd 'd' HH:mm:ss
         const tiempoSplitted = tiempo.split(' d ');
 
         const MHSArr = tiempoSplitted[1].split(':');
@@ -143,19 +131,15 @@ function setUpgradeTimeout() {
         const mins = MHSArr[1];
         const segs = MHSArr[2];
 
-        //Tiempo en ms
         ms = dias * 86400000 + horas * 3600000 + mins * 60000 + segs * 1000;
     } else {
         const MHSArr = tiempo.split(':');
         if (longitud > 5) {
-            //Significará que es HH:mm:ss
             const horas = MHSArr[0];
             const mins = MHSArr[1];
             const segs = MHSArr[2];
-            //Tiempo en ms
             ms = horas * 3600000 + mins * 60000 + segs * 1000;
         } else {
-            //Significará que es mm:ss
             const mins = MHSArr[0];
             const segs = MHSArr[1];
             ms = mins * 60000 + segs * 1000;
@@ -197,11 +181,7 @@ function addDiv(nextPerkDate) {
 function addMenu() {
     if ($('#mymenu').length <= 0) {
         const perk = Number(GM_getValue('perk'));
-
         const url = Number(GM_getValue('url'));
-
-        // console.log(perk, url)
-
         const input = `<div id="mymenu" class="perk_item ib_border hov pointer">
                             
                             <select id="myurl">
