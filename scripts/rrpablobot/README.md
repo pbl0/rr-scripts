@@ -1,30 +1,30 @@
 ## @rrpablobot
 
 Telegram bot that you can send some rr links and it will retrieve
-relevant data. It can be added to groups too.
+useful data. It also work on groups too.
 
 ### [@rrpablobot](https://t.me/rrpablobot)
 
 Current commands:
 
-/commands
-/info
-/profile
-/region
-/war
-/state
-/party
-/article
-/coups
-/perk
-/regions
-/resources
-/weapons
-/state_market
+- /commands
+- /info
+- /profile
+- /region
+- /war
+- /state
+- /party
+- /article
+- /coups
+- /perk
+- /regions
+- /resources
+- /weapons
+- /state_market
 
-> **Reminder:** The bot might be down sometimes.
+Check the full list of commands with **/commands**.
 
-Contact [@pablobls](https://pablobls) to help improve this bot by reporting issues or suggesting new features.
+Want to help improve this bot or have any questions or suggestions? Contact [@pablobls](https://pablobls).
 
 ### Usage
 
