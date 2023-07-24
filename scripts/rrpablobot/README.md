@@ -1,23 +1,31 @@
-# @rrpablobot
+## @rrpablobot
 
 Telegram bot that you can send some rr links and it will retrieve
 relevant data. It can be added to groups too.
 
-## [@rrpablobot](https://t.me/rrpablobot)
+### [@rrpablobot](https://t.me/rrpablobot)
 
-Currently:
-- Profile
-- State
-- Region
-- War
+Current commands:
 
-In progress:
-- Party
-- Lists of wars
+/commands
+/info
+/profile
+/region
+/war
+/state
+/party
+/article
+/coups
+/perk
+/regions
+/resources
+/weapons
+/state_market
 
-> **Reminder:** This bot is sill a work in progress, expect some bugs or not working at all for brief periods of time.
+> **Reminder:** The bot might be down sometimes.
 
 Contact [@pablobls](https://pablobls) to help improve this bot by reporting issues or suggesting new features.
 
 ### Usage
+
 ![img](assets/rr-scripts/scripts/rrpablobot/example.jpg)

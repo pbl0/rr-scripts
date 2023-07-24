@@ -1,5 +1,4 @@
-# Refill Gold (PC)
-
+## Refill Gold (PC)
 
 ## Installation
 
@@ -13,22 +12,14 @@
 
 ![img]
 
-
 ### Please read:
 
 - It will check how much time has passed from last refill, how much gold the regions on your state have left and refill if needed. You can also refill manually from main page by pressing the button.
 
 - Still experimental full automatic refills.
 
-  
-  
-
 [kiwi]: https://play.google.com/store/apps/details?id=com.kiwibrowser.browser
-
 [vm]: https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag
-
 [myscript]: https://github.com/pbl0/rr-scripts/raw/main/scripts/refill-gold/pc/RefillGoldPC.user.js
-
 [img]: assets/rr-scripts/scripts/refill-gold/screen.png
-
 [values]: assets/rr-scripts/scripts/refill-gold/values.jpg
