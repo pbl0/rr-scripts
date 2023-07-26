@@ -3,7 +3,7 @@
 // @namespace   https://pablob.eu/
 // @match       https://m.rivalregions.com/
 // @match       http://m.rivalregions.com/
-// @version     0.1.1
+// @version     0.1.2
 // @author      Pablo
 // @description just refills the gold (MOBILE)
 // @run-at document-idle
@@ -11,6 +11,7 @@
 // ==/UserScript==
 
 /**
+ * v0.1.2 -> Remove redundant functionality. Fix bug with duplicated button.
  * v0.1.0 -> port to bromite & auto-updates state id from user profile page
  * v0.0.8 -> small fix
  * v0.0.7 -> Fix on request
@@ -104,32 +105,6 @@ function refill_gold() {
     });
 }
 
-function workPage() {
-  var total = $(
-    "div.mob_box_inner.mob_box_5_clean.float_left.imp.tc> div.yellow.small_box"
-  ).text();
-  if (
-    $(".mslide.yellow").html() < threshold &&
-    localStorage.getItem("is_my_state") &&
-    total != "2500/2500"
-  ) {
-    refill_gold();
-  }
-}
-
-function workPage() {
-  var total = document.querySelector(
-    "div.mob_box_inner.mob_box_5_clean.float_left.imp.tc> div.yellow.small_box"
-  ).textContent;
-  if (
-    parseInt(document.querySelector(".mslide.yellow").innerHTML) < threshold &&
-    JSON.parse(localStorage.getItem("is_my_state")) &&
-    total !== "2500/2500"
-  ) {
-    refill_gold();
-  }
-}
-
 function mainPage() {
   var mainPageInterval = setInterval(function () {
     if (
@@ -155,8 +130,10 @@ function mainPage() {
 
         localStorage.setItem("is_my_state", true);
       } else {
-        addMenu(false, false);
-        localStorage.setItem("is_my_state", false);
+        if (!document.getElementById("my_refill")) {
+          addMenu(false, false);
+          localStorage.setItem("is_my_state", false);
+        }
       }
     }
   });
@@ -194,33 +171,7 @@ function addMenu(isOn, notSet) {
           <div class="tiny">Last refill: ${lastRefill} (state:${myState})
           <span class='addit_2'> Script by @pablobls</span>
     </div>`
-    // Uncoment for testing purposes, resets localStorage variables
-    //    <div id="reset_refill" class="button_red index_auto pointer mslide">Reset</div></div>
   );
-
-  // Uncoment for testing purposes, resets localStorage variables
-  // document
-  //   .getElementById("reset_refill")
-  //   .addEventListener("click", resetLocalStorage());
-}
-
-function refillFromTable() {
-  var doRefill = false;
-  document.querySelectorAll("#list_tbody>tr").forEach(function (tr) {
-    var limitLeft = tr.querySelector("td:nth-child(6)").textContent;
-
-    if (limitLeft > 0) {
-      var explored = tr.querySelector("td:nth-child(3)").textContent;
-      if (explored <= threshold) {
-        doRefill = true;
-      }
-    }
-  });
-
-  if (doRefill) {
-    refill_gold();
-  } else {
-  }
 }
 
 function get_c() {

@@ -1,9 +1,9 @@
-
 # RR mods guide
 
 This guide is aimed at anyone who wants to install and use user scripts (mods) in [Rival Regions][rr] game both on mobile and PC.
 
-* * *
+---
+
 ### What are user scripts?
 
 Scripts are like mods but for websites. They make the game better by adding features, making them easier to use, or taking out the annoying bits, extracting data, automating tasks etc.
@@ -17,17 +17,17 @@ To use scripts you need to first install a script manager extension. Some of the
 This guide will focus mostly on [ViolentMonkey][vm].
 
 - **Windows/Linux/MacOS:**
-    - Install an script manager extension, [ViolentMonkey][vm] is my recommendation but TamperMonkey/GreaseMonkey should also work.
+
+  - Install an script manager extension, [ViolentMonkey][vm] is my recommendation but TamperMonkey/GreaseMonkey should also work.
 
 - **Android:**
-    - > **Important:** The usage of scripts in smart-phones is experimental and isn't supported by most browsers.
-    - The best option is to install [Bromite](https://www.bromite.org/) browser as it supports scripts by default. [Read mode](https://telegra.ph/How-to-install-user-scripts-on-Android-using-Bromite-05-14).
 
+  - > **Important:** The usage of scripts in smart-phones is experimental and isn't supported by most browsers.
+  - The best option is to install [Bromite](https://www.bromite.org/) browser as it supports scripts by default. [Read mode](https://telegra.ph/How-to-install-user-scripts-on-Android-using-Bromite-05-14).
 
 - **Both:** Now that your browser is ready to install some scripts, you can pick one from my [collection][scripts]. In order to install a script you can simply open the script url in your browser and your user script manager will do the rest.
 
 - Once the script is installed just visit the game (or the specific page it affects). It should automatically do its thing.
-
 
 ### Things you could do when a user script breaks
 
@@ -41,19 +41,21 @@ This guide will focus mostly on [ViolentMonkey][vm].
 
 > **Important:** Most of my scripts will only work with the english language setting.
 
-* * *
+---
 
 ### Updating a script
 
 Scripts will get updated whenever it's author pushes an update in their repository. ViolentMonkey defaults to checking updates once a day but you can also manually check for updates.
+
 > If you do not want to receive any updates just delete the `@downloadURL` line in the script headers.
 
 ### Configuration Values
+
 Some scripts might have configurations values (GM_values) that you might want to change. ViolentMonkey easily allows this in the values tab while editing the script. Bromite doesn't seem to support these GM_values so most of my scripts won't work.
 
 Adguard and TamperMonkey don't seem to allow changing the values manually, so you might have to edit the script code to change the default values (however these changes will get erased whenever the script gets updated).
 
-* * *
+---
 
 ### Further information
 
@@ -61,22 +63,15 @@ Adguard and TamperMonkey don't seem to allow changing the values manually, so yo
 
 **iOS Users:** The only solution I found would be using [Gear Browser][gear], although this feature seems to be paid-only and I haven't tested it. Please notify if you been able to test this or any other solution to update this guide.
 
-
 [rr]: https://rivalregions.com
-
 [kiwi]: https://play.google.com/store/apps/details?id=com.kiwibrowser.browser
-
 [vm]: https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag
-
 [values]: https://raw.githubusercontent.com/pbl0/refill_gold_rr/master/values.jpg
-
 [adguard]: https://adguard.com/es/adguard-android/overview.html
-
 [scripts]: https://rr-tools.eu/mods
-
 [gear]: https://apps.apple.com/us/app/gear-browser/id1458962238
-
 [stylus]: https://github.com/openstyles/stylus#releases
 
-* * *
-> _Updated: Dec 8 2022_
+---
+
+> _Updated: Dec 8 2022_ </a>
