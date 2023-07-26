@@ -1,4 +1,4 @@
-# Refill Gold (PC)
+## Refill Gold (PC)
 
 [Click here for the **Mobile version** instead](https://rr-tools.eu/mod/7).
 

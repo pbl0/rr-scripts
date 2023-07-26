@@ -1,4 +1,4 @@
-# RR mods guide
+## RR mods guide
 
 This guide is aimed at anyone who wants to install and use user scripts (mods) in [Rival Regions][rr] game both on mobile and PC.
 
@@ -74,4 +74,4 @@ Adguard and TamperMonkey don't seem to allow changing the values manually, so yo
 
 ---
 
-> _Updated: Dec 8 2022_ </a>
+> _Updated: Dec 8 2022_

@@ -1,10 +1,10 @@
-# Refill Gold (Mobile)
+## Refill Gold (Mobile)
 
 [Click here for the **PC version** instead](https://rr-tools.eu/mod/7).
 
 > Take in mind that the mobile version isn't fully automatic like the PC version.
 
-## Installation
+### Installation
 
 - Install [Kiwi Browser][kiwi] and [ViolentMonkey][vm] extension
 
@@ -18,9 +18,9 @@
 
 ![img]
 
-### Please read:
+### Please read!!:
 
-The script does not work on the background, you need to enter the game in order to execute the script.
+The script for mobile does not work on the background, you need to enter the game in order to execute the script.
 
 It will check how much time has passed from last refill, how much gold the regions on your state have left and refill if needed. You can also refill manually from main page by pressing the button.
 

@@ -1,4 +1,4 @@
-# Dmg extract tool
+## Dmg extract tool
 
 Script for rivalregions game that allows to extract both the individual and party damage of any front. It is meant to be used along with RR Tools [Dmg Tool](https:///rr-tools.eu/dmg-tool)
 
@@ -11,12 +11,9 @@ Script for rivalregions game that allows to extract both the individual and part
 ### Installation
 
 - Read [how to use user scripts for RR][guide].
-- [Click  to install][raw].
+- [Click to install][raw].
 - Check out my [RR script collection][scripts].
 
-
 [guide]: https://rr-tools.eu/guide
-
 [scripts]: https://rr-tools.eu/mods
-
 [raw]: https://github.com/pbl0/rr-scripts/raw/main/scripts/dmg-extract/extract_dmg.user.js
