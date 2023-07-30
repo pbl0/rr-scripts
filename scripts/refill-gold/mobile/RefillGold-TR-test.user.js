@@ -6,7 +6,7 @@
 // @author      Pablo
 // @description just refills the gold (MOBILE)
 // @run-at document-idle
-// @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/refill-gold/mobile/RefillGold.user.js
+// @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/refill-gold/mobile/RefillGold-TR-test.user.js
 // ==/UserScript==
 
 /**
