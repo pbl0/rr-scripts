@@ -1,9 +1,9 @@
-## @rrpablobot
+# @rrpablobot
 
 Telegram bot that you can send some rr links and it will retrieve
 useful data. It also work on groups too.
 
-### [@rrpablobot](https://t.me/rrpablobot)
+## [@rrpablobot](https://t.me/rrpablobot)
 
 Current commands:
 
@@ -26,6 +26,6 @@ Check the full list of commands with **/commands**.
 
 Want to help improve this bot or have any questions or suggestions? Contact [@pablobls](https://pablobls).
 
-### Usage
+## Usage
 
 ![img](assets/rr-scripts/scripts/rrpablobot/example.jpg)

@@ -1,10 +1,10 @@
-## Refill Gold (Mobile)
+# Refill Gold (Mobile)
 
 [Click here for the **PC version** instead](https://rr-tools.eu/mod/7).
 
 > Take in mind that the mobile version isn't fully automatic like the PC version.
 
-### Installation
+## Installation
 
 - Install [Kiwi Browser][kiwi] and [ViolentMonkey][vm] extension
 
@@ -18,7 +18,7 @@
 
 ![img]
 
-### Please read!!:
+## Please read!!:
 
 The script for mobile does not work on the background, you need to enter the game in order to execute the script.
 

@@ -1,8 +1,8 @@
-## Factory Production Ranking
+# Factory Production Ranking
 
 This scripts calculates the production of the top level factory of each region in rivalregions.
 
-### How to use
+## How to use
 
 After installing it will work whenever you enter https://rivalregions.com/info/regions (Make sure to login on the game first otherwise it will show a blank page). Wait a few seconds for every region to load and the script will show a small menu.
 
@@ -16,7 +16,7 @@ The new columns added are **10E Prod**, **300E Prod** and **$**. Click on any co
 
 > For now only oil, ore, uranium and diamonds are supported. Other resources might get added in the future.
 
-### Install
+## Install
 
 - Read [how to install user scripts for RR][guide].
 - Click [here][raw] to install.

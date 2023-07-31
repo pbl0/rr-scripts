@@ -1,8 +1,8 @@
-## Refill Gold (PC)
+# Refill Gold (PC)
 
 [Click here for the **Mobile version** instead](https://rr-tools.eu/mod/7).
 
-## Installation
+# Installation
 
 - Install this [script][myscript] on ViolentMonkey
 
@@ -14,7 +14,7 @@
 
 ![img]
 
-### Please read:
+## Please read:
 
 - Full automatic refills.
 

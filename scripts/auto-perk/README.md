@@ -1,4 +1,4 @@
-## auto-perk
+# auto-perk
 
 > Many people reported a bug that caused infinite page refreshing. Many thanks to Itusil for finding the exact error that caused this behaviour and also for submiting a bug fix.
 
@@ -12,7 +12,7 @@ Select perk and type of payment.
 
 <img class="image" src="assets/rr-scripts/scripts/auto-perk/perk.png" alt="menu"/>
 
-### Install
+## Install
 
 - Read [how to install user scripts for RR][guide].
 - Click [here][raw] to install.

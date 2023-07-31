@@ -1,14 +1,14 @@
-## Region extract tool
+# Region extract tool
 
 Script for rivalregions game that allows to extract the number of building of any region. It is meant to be used along with RR Tools [Region cost calculator](https:///rr-tools.eu/region-cost)
 
-### How to use:
+## How to use:
 
 <a class="is-hidden" href="https://www.youtube.com/watch?v=ocSTNb_WWmw"><img width="500" src="embed.png" alt="video"></a>
 
 <iframe width="500" height="300" src="https://www.youtube.com/embed/ocSTNb_WWmw" frameborder="0" allowfullscreen></iframe>
 
-### Installation
+## Installation
 
 - Read [how to use user scripts for RR][guide].
 - [Click to install][raw].

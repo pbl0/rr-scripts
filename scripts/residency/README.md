@@ -1,8 +1,8 @@
-## Residencies script
+# Residencies script
 
 Export residencies or work permits in a region or state.
 
-### Usage
+## Usage
 
 1. [Install script][raw]
 2. Go to a residency/work permits page.

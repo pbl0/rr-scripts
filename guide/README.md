@@ -1,16 +1,16 @@
-## RR mods guide
+# RR mods guide
 
 This guide is aimed at anyone who wants to install and use user scripts (mods) in [Rival Regions][rr] game both on mobile and PC.
 
 ---
 
-### What are user scripts?
+## What are user scripts?
 
 Scripts are like mods but for websites. They make the game better by adding features, making them easier to use, or taking out the annoying bits, extracting data, automating tasks etc.
 
 > **Reminder:** From what is known, scripts only work on the web browser version of the game and won't work on the mobile app (at lest in an easy way).
 
-### Installation and usage
+## Installation and usage
 
 To use scripts you need to first install a script manager extension. Some of the most popular ones are ViolentMonkey, TamperMonkey, GreaseMonkey.
 
@@ -29,7 +29,7 @@ This guide will focus mostly on [ViolentMonkey][vm].
 
 - Once the script is installed just visit the game (or the specific page it affects). It should automatically do its thing.
 
-### Things you could do when a user script breaks
+## Things you could do when a user script breaks
 
 - Refresh rivalregions page ( press F5 )
 - Close tab/browser
@@ -43,13 +43,13 @@ This guide will focus mostly on [ViolentMonkey][vm].
 
 ---
 
-### Updating a script
+## Updating a script
 
 Scripts will get updated whenever it's author pushes an update in their repository. ViolentMonkey defaults to checking updates once a day but you can also manually check for updates.
 
 > If you do not want to receive any updates just delete the `@downloadURL` line in the script headers.
 
-### Configuration Values
+## Configuration Values
 
 Some scripts might have configurations values (GM_values) that you might want to change. ViolentMonkey easily allows this in the values tab while editing the script. Bromite doesn't seem to support these GM_values so most of my scripts won't work.
 
@@ -57,7 +57,7 @@ Adguard and TamperMonkey don't seem to allow changing the values manually, so yo
 
 ---
 
-### Further information
+## Further information
 
 **Mobile users:** Mobile browsers seem to pause the execution of JavaScript when the browser is in the background to avoid battery drainage. So fully automated bots cannot be accomplished unless the page is in the foreground and the device has the screen unlocked. For that reason my mobile scripts won't fully automate anything.
 
