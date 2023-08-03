@@ -3,7 +3,9 @@
 // @namespace   https://pablob.eu/
 // @match       https://m.rivalregions.com/
 // @match       http://m.rivalregions.com/
-// @version     0.1.2
+// @match       https://tr.rivalregions.com/
+// @match       http://tr.rivalregions.com/
+// @version     0.1.3
 // @author      Pablo
 // @description just refills the gold (MOBILE)
 // @run-at document-idle
@@ -11,6 +13,7 @@
 // ==/UserScript==
 
 /**
+ * v0.1.3 -> Add compatibility for turkish server. Fixed bug.
  * v0.1.2 -> Remove redundant functionality. Fix bug with duplicated button.
  * v0.1.0 -> port to bromite & auto-updates state id from user profile page
  * v0.0.8 -> small fix
@@ -71,7 +74,7 @@ function listener() {
 }
 
 function refill_gold() {
-  fetch("https://m.rivalregions.com/parliament/donew/42/0/0", {
+  fetch("/parliament/donew/42/0/0", {
     headers: {
       accept: "*/*",
       "accept-language": "en-US,en;q=0.9",
@@ -83,7 +86,7 @@ function refill_gold() {
       "sec-fetch-site": "same-origin",
       "x-requested-with": "XMLHttpRequest",
     },
-    referrer: "https://m.rivalregions.com/",
+    referrer: `https://${location.host}/`,
     referrerPolicy: "strict-origin-when-cross-origin",
     body: `tmp_gov='0'&c=${get_c()}`,
     method: "POST",
@@ -96,7 +99,6 @@ function refill_gold() {
           localStorage.setItem("is_my_state", false);
         } else if (text == "ok") {
           localStorage.setItem("last_refill", new Date().getTime());
-          deleteTable();
         }
       });
     })

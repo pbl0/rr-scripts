@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        RefillGoldScriptPC
 // @namespace   https://pablob.eu/
-// @match       *://rivalregions.com/
+// @match       *://*rivalregions.com/
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @version     0.0.5
@@ -13,6 +13,7 @@
 
 /**
  * v0.0.5 -> Fix AutoRefill bug and fix on bug with independent regions.
+ *           Add compatibility for turkish server.
  * v0.0.4 -> Remove jQuery, remove redundant functionality.
  *           Fix duplicated button bug. Get state id from profile.
  * v0.0.2 -> Fix on request
@@ -106,7 +107,7 @@ function profile_page() {
 
 function refill_gold() {
   // Fetch
-  fetch("https://rivalregions.com/parliament/donew/42/0/0", {
+  fetch("/parliament/donew/42/0/0", {
     headers: {
       accept: "*/*",
       "accept-language": "en-US,en;q=0.9",
@@ -117,7 +118,7 @@ function refill_gold() {
       "sec-fetch-site": "same-origin",
       "x-requested-with": "XMLHttpRequest",
     },
-    referrer: "https://rivalregions.com/",
+    referrer: `https://${location.host}/`,
     referrerPolicy: "strict-origin-when-cross-origin",
     body: `tmp_gov='0'&c=${c_html}`,
     method: "POST",
