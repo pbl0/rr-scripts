@@ -4,7 +4,7 @@
 // @match       *://rivalregions.com/
 // @grant       GM_getValue
 // @grant       GM_setValue
-// @version     0.0.4
+// @version     0.0.5
 // @author      Pablo
 // @description just refills the gold
 // @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/refill-gold/pc/RefillGoldPC.user.js
@@ -12,6 +12,7 @@
 // ==/UserScript==
 
 /**
+ * v0.0.5 -> Fix AutoRefill bug and fix on bug with independent regions.
  * v0.0.4 -> Remove jQuery, remove redundant functionality.
  *           Fix duplicated button bug. Get state id from profile.
  * v0.0.2 -> Fix on request
@@ -141,6 +142,22 @@ function refill_gold() {
     });
 }
 
+function getStateActionAttr() {
+  const stateSelector =
+    "#index_region > div:nth-child(2) > div.float_left.index_mig_links.hov2.imp.pointer";
+  const independentSelector =
+    "div.index_case_50:nth-child(2) > div:nth-child(1) > span:nth-child(1)";
+
+  let element = document.querySelector(stateSelector);
+
+  element =
+    element === null // null if independent state
+      ? document.querySelector(independentSelector)
+      : element;
+
+  return element.getAttribute("action").replace("map/state_details/", "");
+}
+
 function mainPage() {
   var mainPageInterval = setInterval(function () {
     if (
@@ -151,14 +168,7 @@ function mainPage() {
       if (myState == "-") {
         addMenu(false, true);
         localStorage.setItem("is_my_state", false);
-      } else if (
-        document
-          .querySelector(
-            "#index_region > div:nth-child(2) > div.float_left.index_mig_links.hov2.imp.pointer"
-          )
-          .getAttribute("action")
-          .replace("map/state_details/", "") == myState
-      ) {
+      } else if (getStateActionAttr() == myState) {
         if (!document.getElementById("my_refill")) {
           addMenu(true, false);
           document
@@ -217,9 +227,8 @@ function addMenu(isOn, notSet) {
 
 function autoRefill() {
   console.log("auto refill on");
-  let element = document
-    .getElementById("auto_refill")
-    .classList.remove("button_green");
+  let element = document.getElementById("auto_refill");
+  element.classList.remove("button_green");
   element.classList.add("button_white");
   autoRefillInterval = setInterval(function () {
     refill_gold();
