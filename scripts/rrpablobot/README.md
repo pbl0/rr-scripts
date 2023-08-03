@@ -5,7 +5,7 @@ useful data. It also work on groups too.
 
 ## [@rrpablobot](https://t.me/rrpablobot)
 
-Current commands:
+Current commands (03/08/2023):
 
 - /commands
 - /info
