@@ -7,7 +7,7 @@
 // @description
 // @grant GM_setValue
 // @grant GM_getValue
-// @version     0.5.1
+// @version     0.6
 // @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/region-extract-tool/region-extract.user.js
 // ==/UserScript==
 
@@ -18,6 +18,7 @@
 /**
  * v0.5 - fix on button inside rr-tools.eu, remove jQuery
  * v0.5.1 - fixes a bug with regions in energy insolvent states that didn't allow to be extracted. (By @bagd1k)
+ * v0.6 - multi-lang support. EN, RU, ES, PT for now.
  */
 
 listener();
@@ -107,38 +108,7 @@ function extractRegion() {
       ? preAmount.split("/")[1]
       : preAmount;
 
-    switch (name) {
-      case "Hospital":
-        myRegion.buildings["1"] = Number(amount);
-        break;
-      case "Military base":
-        myRegion.buildings["2"] = Number(amount);
-        break;
-      case "School":
-        myRegion.buildings["3"] = Number(amount);
-        break;
-      case "Missile system":
-        myRegion.buildings["4"] = Number(amount);
-        break;
-      case "Sea port":
-        myRegion.buildings["5"] = Number(amount);
-        break;
-      case "Power plant":
-        myRegion.buildings["6"] = Number(amount);
-        break;
-      case "Spaceport":
-        myRegion.buildings["7"] = Number(amount);
-        break;
-      case "Airport":
-        myRegion.buildings["8"] = Number(amount);
-        break;
-      case "House fund":
-        myRegion.buildings["9"] = Number(amount);
-        break;
-
-      default:
-        break;
-    }
+    updateBuilding(name, amount);
   });
 
   myRegion.regionName = document
@@ -163,4 +133,27 @@ class Region {
     8: 0,
     9: 0,
   };
+}
+
+const buildingsMap = {
+  // English, Russian, Spanish, Portuguese
+  1: ["Hospital", "Госпиталь", "Hospital"],
+  2: ["Military base", "Военная база", "Base militar", "Academia militar"],
+  3: ["School", "Школа", "Escuela", "Escola"],
+  4: ["Missile system", "ПВО", "Sistema de misiles", "Sistema de mísseis"],
+  5: ["Sea port", "Порт", "Puerto naval", "Porto Maritimo"],
+  6: ["Power plant", "Электростанция", "Planta de energía", "Usina de energia"],
+  7: ["Spaceport", "Космодром", "Puerto espacial", "Spaceport"],
+  8: ["Airport", "Аэропорт", "Aeropuerto", "Aeroporto"],
+  9: ["House fund", "Жилой фонд", "Vivienda", "Fundo de Habitação"],
+};
+
+function updateBuilding(name, amount) {
+  const buildingID = Object.keys(buildingsMap).find((id) =>
+    buildingsMap[id].includes(name)
+  );
+
+  if (buildingID) {
+    myRegion.buildings[buildingID] = Number(amount);
+  }
 }
