@@ -134,7 +134,7 @@ class Region {
 const buildingsMap = {
   // English, Russian, Spanish, Portuguese
   1: ["Hospital", "Госпиталь", "Hospital"],
-  2: ["Military base", "Военная база", "Base militar", "Academia militar"],
+  2: ["Military base", "Военная база", "Base militar"],
   3: ["School", "Школа", "Escuela", "Escola"],
   4: ["Missile system", "ПВО", "Sistema de misiles", "Sistema de mísseis"],
   5: ["Sea port", "Порт", "Puerto naval", "Porto Maritimo"],
