@@ -7,7 +7,7 @@
 // @description
 // @grant GM_setValue
 // @grant GM_getValue
-// @version     0.5
+// @version     0.5.1
 // @downloadURL https://github.com/pbl0/rr-scripts/raw/main/scripts/region-extract-tool/region-extract.user.js
 // ==/UserScript==
 
@@ -17,6 +17,7 @@
 
 /**
  * v0.5 - fix on button inside rr-tools.eu, remove jQuery
+ * v0.5.1 - fixes a bug with regions in energy insolvent states that didn't allow to be extracted. (By @bagd1k)
  */
 
 listener();
@@ -101,7 +102,10 @@ function extractRegion() {
   buildingsHtml.forEach(function (building) {
     const nameAndAmount = building.textContent.split(":");
     const name = nameAndAmount[0].trim();
-    const amount = nameAndAmount[1].trim();
+    const preAmount = nameAndAmount[1].trim();
+    const amount = preAmount.includes("/")
+      ? preAmount.split("/")[1]
+      : preAmount;
 
     switch (name) {
       case "Hospital":
