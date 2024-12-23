@@ -132,14 +132,14 @@ class Region {
 }
 
 const buildingsMap = {
-  // English, Russian, Spanish, Portuguese
-  1: ["Hospital", "Госпиталь", "Hospital"],
+  // English, Russian, Spanish, Portuguese. Omit duplicates.
+  1: ["Hospital", "Госпиталь"],
   2: ["Military base", "Военная база", "Base militar"],
   3: ["School", "Школа", "Escuela", "Escola"],
   4: ["Missile system", "ПВО", "Sistema de misiles", "Sistema de mísseis"],
   5: ["Sea port", "Порт", "Puerto naval", "Porto Maritimo"],
   6: ["Power plant", "Электростанция", "Planta de energía", "Usina de energia"],
-  7: ["Spaceport", "Космодром", "Puerto espacial", "Spaceport"],
+  7: ["Spaceport", "Космодром", "Puerto espacial"],
   8: ["Airport", "Аэропорт", "Aeropuerto", "Aeroporto"],
   9: ["House fund", "Жилой фонд", "Vivienda", "Fundo de Habitação"],
 };
