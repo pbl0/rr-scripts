@@ -12,10 +12,6 @@
 // ==/UserScript==
 
 /**
- *  IMPORTANT: ONLY WORKS ON ENGLISH INTERFACE OF RIVALREGIONS
- */
-
-/**
  * v0.5 - fix on button inside rr-tools.eu, remove jQuery
  * v0.5.1 - fixes a bug with regions in energy insolvent states that didn't allow to be extracted. (By @bagd1k)
  * v0.6 - multi-lang support. EN, RU, ES, PT for now.
