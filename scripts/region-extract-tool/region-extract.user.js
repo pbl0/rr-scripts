@@ -104,7 +104,7 @@ function extractRegion() {
       ? preAmount.split("/")[1]
       : preAmount;
 
-    updateBuilding(name, amount);
+    updateBuilding(name, amount, myRegion);
   });
 
   myRegion.regionName = document
@@ -144,12 +144,12 @@ const buildingsMap = {
   9: ["House fund", "Жилой фонд", "Vivienda", "Fundo de Habitação"],
 };
 
-function updateBuilding(name, amount) {
+function updateBuilding(name, amount, region) {
   const buildingID = Object.keys(buildingsMap).find((id) =>
     buildingsMap[id].includes(name)
   );
 
   if (buildingID) {
-    myRegion.buildings[buildingID] = Number(amount);
+    region.buildings[buildingID] = Number(amount);
   }
 }
