@@ -1,70 +1,196 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Untitled</title>
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
-  </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
-</head>
-<body>
-<h1 id="rr-mod-guide">RR Mod guide</h1>
-<p>This guide is aimed at anyone who wants to install and use user scripts/mods in the <a href="https://rivalregions.com">Rival Regions</a> game both in mobile and PC platforms.</p>
-<h3 id="what-are-user-scripts">What are user scripts?</h3>
-<p>User scripts put you in control of your Rival Regions experience. They automatically make the game better by adding features, making them easier to use, or taking out the annoying bits, extracting data, automating tasks etc.</p>
-<blockquote>
-<p><strong>Reminder:</strong> From what is known, scripts only work on the web browser version of the game and will never work in the mobile app.</p>
-</blockquote>
-<h3 id="installation-and-usage">Installation and usage</h3>
-<p>To use user scripts you need to first install a script manager extension. Some of the most popular ones are ViolentMonkey, TamperMonkey, GreaseMonkey.</p>
-<p>This guide will focus mostly on <a href="https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag">ViolentMonkey</a> as it has some extra configuration features and it works both on PC and Mobile.</p>
-<ul>
-<li><strong>Windows/Linux/MacOS:</strong>
-<ul>
-<li>Install an user script manager extension, <a href="https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag">ViolentMonkey</a> is my recommendation but TamperMonkey/GreaseMonkey should work.</li>
-</ul></li>
-<li><strong>Android:</strong>
-<ul>
-<li><blockquote>
-<p><strong>Important:</strong> The usage of scripts in smart-phones is experimental and isn’t supported by most browsers. Until now, neither Chrome or Firefox allow to install any script manager.</p>
-</blockquote></li>
-<li>There are a few browsers that support extensions such as <a href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser">Kiwi Browser</a> (chrome based).</li>
-<li>On mobile the only script manager extension that seems to work properly is <a href="https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag">ViolentMonkey</a>.</li>
-<li>An alternative way to use user scripts in mobile is using <a href="https://adguard.com/es/adguard-android/overview.html">Adguard app</a> (<strong>paid feature</strong>), which is meant to block ads system-wide but also has a built-in script manager. This works on any browser as long as the Adguard app is running in the background.</li>
-</ul></li>
-<li><p><strong>Both:</strong> Now that your browser is ready to install some scripts, you can pick one from my <a href="https://rr-tools.eu/mods">collection</a>. In order to install a script you can simply open the script url in your browser and your user script manager will do the rest.</p></li>
-<li><p>Once the script is installed just visit the game (or the specific page it affects). It should automatically do its thing.</p></li>
-</ul>
-<h3 id="configuration-values">Configuration Values</h3>
-<p>Some scripts might have configurations values (GM_values) that you might want to change. ViolentMonkey easily allows this in the values tab while editing the script.</p>
-<p>Adguard and TamperMonkey don’t seem to allow changing the values manually, so you might have to edit the script code to change the default values (however these will get erased whenever the script gets updated).</p>
-<h3 id="things-you-could-do-when-a-user-script-breaks">Things you could do when a user script breaks</h3>
-<ul>
-<li>Refresh rivalregions page ( press F5 )</li>
-<li>Close tab/browser</li>
-<li>Re-install script</li>
-<li>Open the console to see any errors ( press F12 on PC )</li>
-<li>Disable other scripts.</li>
-<li>You need to refresh whenever you disable/enable scripts</li>
-<li>Contact script author</li>
-</ul>
-<blockquote>
-<p><strong>Reminder:</strong> Most scripts will only work with the english language setting.</p>
-</blockquote>
-<h3 id="updating-a-script">Updating a script</h3>
-<p>User scripts will get updated whenever it’s author pushes an update in their repository. ViolentMonkey defaults to checking updates once a day but you can also manually check for updates. &gt; If you do not want to receive any updates just delete the <code>@downloadURL</code> line in the script headers.</p>
-<h3 id="css-userstyles-mods">CSS userstyles mods</h3>
-<p>This other type of mod only modifies the CSS styles of the page, which can be used to create new themes for RivalRegions (or any other page). To inject user styles you can use <a href="https://github.com/openstyles/stylus#releases">Stylus</a> extension or similar.</p>
-<h3 id="further-information">Further information</h3>
-<p><strong>Mobile users:</strong> Mobile browsers seem to pause the execution of JavaScript when the browser is in the background to avoid battery drainage. So fully automated bots cannot be accomplished unless the page is in the foreground and the device has the screen unlocked.</p>
-<p><strong>iOS Users:</strong> The only solution I found would be using <a href="https://apps.apple.com/us/app/gear-browser/id1458962238">Gear Browser</a>, although this feature seems to be paid-only and I haven’t tested it. Please notify if you been able to test this or any other solution to update this guide.</p>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>Untitled</title>
+    <style type="text/css">
+      code {
+        white-space: pre-wrap;
+      }
+      span.smallcaps {
+        font-variant: small-caps;
+      }
+      span.underline {
+        text-decoration: underline;
+      }
+      div.column {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+      }
+    </style>
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1 id="rr-mod-guide">RR Mod guide</h1>
+    <p>
+      This guide is aimed at anyone who wants to install and use user
+      scripts/mods in the
+      <a href="https://rivalregions.com">Rival Regions</a> game both in mobile
+      and PC platforms.
+    </p>
+    <h3 id="what-are-user-scripts">What are user scripts?</h3>
+    <p>
+      User scripts put you in control of your Rival Regions experience. They
+      automatically make the game better by adding features, making them easier
+      to use, or taking out the annoying bits, extracting data, automating tasks
+      etc.
+    </p>
+    <blockquote>
+      <p>
+        <strong>Reminder:</strong> From what is known, scripts only work on the
+        web browser version of the game and will never work in the mobile app.
+      </p>
+    </blockquote>
+    <h3 id="installation-and-usage">Installation and usage</h3>
+    <p>
+      To use user scripts you need to first install a script manager extension.
+      Some of the most popular ones are ViolentMonkey, TamperMonkey,
+      GreaseMonkey.
+    </p>
+    <p>
+      This guide will focus mostly on
+      <a
+        href="https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag"
+        >ViolentMonkey</a
+      >
+      as it has some extra configuration features and it works both on PC and
+      Mobile.
+    </p>
+    <ul>
+      <li>
+        <strong>Windows/Linux/MacOS:</strong>
+        <ul>
+          <li>
+            Install an user script manager extension,
+            <a
+              href="https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag"
+              >ViolentMonkey</a
+            >
+            is my recommendation but TamperMonkey/GreaseMonkey should work.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Android:</strong>
+        <ul>
+          <li>
+            <blockquote>
+              <p>
+                <strong>Important:</strong> The usage of scripts in smart-phones
+                is experimental and isn’t supported by most browsers.
+              </p>
+            </blockquote>
+          </li>
+          <li>
+            There are a few browsers that support extensions such as
+            <a
+              href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser"
+              >Kiwi Browser</a
+            >
+            (chrome based).
+          </li>
+          <li>
+            On mobile the only script manager extension that seems to work
+            properly is
+            <a
+              href="https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag"
+              >ViolentMonkey</a
+            >.
+          </li>
+          <li>
+            An alternative way to use user scripts in mobile is using
+            <a href="https://adguard.com/es/adguard-android/overview.html"
+              >Adguard app</a
+            >
+            (<strong>paid feature</strong>), which is meant to block ads
+            system-wide but also has a built-in script manager. This works on
+            any browser as long as the Adguard app is running in the background.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+          <strong>Both:</strong> Now that your browser is ready to install some
+          scripts, you can pick one from my
+          <a href="https://rr-tools.eu/mods">collection</a>. In order to install
+          a script you can simply open the script url in your browser and your
+          user script manager will do the rest.
+        </p>
+      </li>
+      <li>
+        <p>
+          Once the script is installed just visit the game (or the specific page
+          it affects). It should automatically do its thing.
+        </p>
+      </li>
+    </ul>
+    <h3 id="configuration-values">Configuration Values</h3>
+    <p>
+      Some scripts might have configurations values (GM_values) that you might
+      want to change. ViolentMonkey easily allows this in the values tab while
+      editing the script.
+    </p>
+    <p>
+      Adguard and TamperMonkey don’t seem to allow changing the values manually,
+      so you might have to edit the script code to change the default values
+      (however these will get erased whenever the script gets updated).
+    </p>
+    <h3 id="things-you-could-do-when-a-user-script-breaks">
+      Things you could do when a user script breaks
+    </h3>
+    <ul>
+      <li>Refresh rivalregions page ( press F5 )</li>
+      <li>Close tab/browser</li>
+      <li>Re-install script</li>
+      <li>Open the console to see any errors ( press F12 on PC )</li>
+      <li>Disable other scripts.</li>
+      <li>You need to refresh whenever you disable/enable scripts</li>
+      <li>Contact script author</li>
+    </ul>
+    <blockquote>
+      <p>
+        <strong>Reminder:</strong> Most scripts will only work with the english
+        language setting.
+      </p>
+    </blockquote>
+    <h3 id="updating-a-script">Updating a script</h3>
+    <p>
+      User scripts will get updated whenever it’s author pushes an update in
+      their repository. ViolentMonkey defaults to checking updates once a day
+      but you can also manually check for updates. &gt; If you do not want to
+      receive any updates just delete the <code>@downloadURL</code> line in the
+      script headers.
+    </p>
+    <h3 id="css-userstyles-mods">CSS userstyles mods</h3>
+    <p>
+      This other type of mod only modifies the CSS styles of the page, which can
+      be used to create new themes for RivalRegions (or any other page). To
+      inject user styles you can use
+      <a href="https://github.com/openstyles/stylus#releases">Stylus</a>
+      extension or similar.
+    </p>
+    <h3 id="further-information">Further information</h3>
+    <p>
+      <strong>Mobile users:</strong> Mobile browsers seem to pause the execution
+      of JavaScript when the browser is in the background to avoid battery
+      drainage. So fully automated bots cannot be accomplished unless the page
+      is in the foreground and the device has the screen unlocked.
+    </p>
+    <p>
+      <strong>iOS Users:</strong> The only solution I found would be using
+      <a href="https://apps.apple.com/us/app/gear-browser/id1458962238"
+        >Gear Browser</a
+      >, although this feature seems to be paid-only and I haven’t tested it.
+      Please notify if you been able to test this or any other solution to
+      update this guide.
+    </p>
+  </body>
 </html>

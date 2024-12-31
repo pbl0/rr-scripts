@@ -4,9 +4,11 @@
 
 > Take in mind that the mobile version isn't fully automatic like the PC version.
 
+> Seems to be buggy if your account is also a Governor.
+
 ## Installation
 
-- Install [Kiwi Browser][kiwi] and [ViolentMonkey][vm] extension
+- Install [Firefox](https://play.google.com/store/apps/details?id=org.mozilla.firefox) or [Kiwi Browser][kiwi] and [ViolentMonkey][vm] extension
 
 - Install this [script][myscript] on ViolentMonkey
 

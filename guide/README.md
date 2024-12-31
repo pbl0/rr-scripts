@@ -23,8 +23,9 @@ This guide will focus mostly on [ViolentMonkey][vm].
 - **Android:**
 
   - > **Important:** The usage of scripts in smart-phones is experimental and isn't supported by most browsers.
-  - The best option is to install [Firefox for android](https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=en&gl=US). And then install Violent Monkey.
+  - The best option is to install [Firefox for android](https://play.google.com/store/apps/details?id=org.mozilla.firefox). And then install Violent Monkey.
   - Another option is to install [Cromite](https://github.com/uazo/cromite) browser as it supports scripts by default. [Read mode](https://telegra.ph/How-to-install-user-scripts-on-Android-using-Bromite-05-14).
+  - You can also use [Kiwi Browser][kiwi]
 
 - **Both:** Now that your browser is ready to install some scripts, you can pick one from my [collection][scripts]. In order to install a script you can simply open the script url in your browser and your user script manager will do the rest.
 
