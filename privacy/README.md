@@ -1,100 +1,29 @@
-## Privacy Policy
+Privacy Policy for RR Tools
 
-hipihapa built the RR Tools app as a Free app. This SERVICE is provided by hipihapa at no cost and is intended for use as is.
+Effective Date: June 6, 2025
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+This Privacy Policy describes how RR Tools ("we," "us," or "our") operates its website located at https://rr-tools.eu. We are committed to protecting your privacy and want to be transparent about our practices.
+1. No Collection of Personal Data
 
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
+We want to make it clear: RR Tools does not collect any personal data from its visitors.
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at RR Tools unless otherwise defined in this Privacy Policy.
+"Personal data" refers to any information that can be used to identify an individual, such as names, email addresses, IP addresses, or any other unique identifiers. When you visit https://rr-tools.eu, you can do so anonymously. We do not ask for, gather, or store any information that could identify you.
+2. No Use of Cookies or Tracking Technologies
 
-**Information Collection and Use**
+RR Tools does not use cookies, web beacons, pixels, or any other tracking technologies.
 
-For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
+Many websites use these technologies to track user activity, remember preferences, or display personalized content. We have specifically chosen not to implement any such technologies. This means your Browse activity on our website is not monitored or recorded by us.
+3. No Data Sharing
 
-The app does use third-party services that may collect information used to identify you.
+Since we do not collect any personal data, we naturally have no personal data to share with any third parties, advertisers, or other entities.
+4. Third-Party Links
 
-Link to the privacy policy of third-party service providers used by the app
+Our website may contain links to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites and cannot accept responsibility or liability for their respective privacy policies. We encourage you to review the privacy policies of any third-party sites you visit.
+5. Changes to This Privacy Policy
 
-*   [Google Play Services](https://www.google.com/policies/privacy/)
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+6. Contact Us
 
-**Log Data**
+If you have any questions about this Privacy Policy, please contact us through the contact information provided on our website.
 
-I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
-
-**Cookies**
-
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
-
-This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
-
-**Service Providers**
-
-I may employ third-party companies and individuals due to the following reasons:
-
-*   To facilitate our Service;
-*   To provide the Service on our behalf;
-*   To perform Service-related services; or
-*   To assist us in analyzing how our Service is used.
-
-I want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
-
-**Security**
-
-I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
-
-**Links to Other Sites**
-
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
-
-**Children’s Privacy**
-
-These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13 years of age. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do the necessary actions.
-
-**Changes to This Privacy Policy**
-
-I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
-
-This policy is effective as of 2022-03-28
-
-**Contact Us**
-
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at hipihapa@tutanota.com.
-
-This privacy policy page was created at [privacypolicytemplate.net](https://privacypolicytemplate.net) and modified/generated by [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com/)
-
-## Terms & Conditions 
-
-By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. You’re not allowed to copy or modify the app, any part of the app, or our trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also shouldn’t try to translate the app into other languages or make derivative versions. The app itself, and all the trademarks, copyright, database rights, and other intellectual property rights related to it, still belong to hipihapa.
-
-hipihapa is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for.
-
-The RR Tools app stores and processes personal data that you have provided to us, to provide my Service. It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the RR Tools app won’t work properly or at all.
-
-The app does use third-party services that declare their Terms and Conditions.
-
-Link to Terms and Conditions of third-party service providers used by the app
-
-*   [Google Play Services](https://policies.google.com/terms)
-
-You should be aware that there are certain things that hipihapa will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi or provided by your mobile network provider, but hipihapa cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.
-
-If you’re using the app outside of an area with Wi-Fi, you should remember that the terms of the agreement with your mobile network provider will still apply. As a result, you may be charged by your mobile provider for the cost of data for the duration of the connection while accessing the app, or other third-party charges. In using the app, you’re accepting responsibility for any such charges, including roaming data charges if you use the app outside of your home territory (i.e. region or country) without turning off data roaming. If you are not the bill payer for the device on which you’re using the app, please be aware that we assume that you have received permission from the bill payer for using the app.
-
-Along the same lines, hipihapa cannot always take responsibility for the way you use the app i.e. You need to make sure that your device stays charged – if it runs out of battery and you can’t turn it on to avail the Service, hipihapa cannot accept responsibility.
-
-With respect to hipihapa’s responsibility for your use of the app, when you’re using the app, it’s important to bear in mind that although we endeavor to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. hipihapa accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.
-
-At some point, we may wish to update the app. The app is currently available on Android – the requirements for the system(and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the app. hipihapa does not promise that it will always update the app so that it is relevant to you and/or works with the Android version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.
-
-**Changes to This Terms and Conditions**
-
-I may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Terms and Conditions on this page.
-
-These terms and conditions are effective as of 2022-03-28
-
-**Contact Us**
-
-If you have any questions or suggestions about my Terms and Conditions, do not hesitate to contact me at hipihapa@tutanota.com.
-
-This Terms and Conditions page was generated by [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com/)
+This privacy policy aims to be as clear and straightforward as possible, reflecting your commitment to user privacy by not collecting data or using tracking technologies. You should display this policy prominently on your website, typically in the footer, to ensure it is easily accessible to all visitors.
